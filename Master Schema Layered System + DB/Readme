@@ -1,0 +1,360 @@
+Sheet 1 — Layer 1: Markets
+AGLD/USD
+
+ALPHA/USD
+
+ALT/USD
+
+ATOM/USD
+
+BILL/USD
+
+DOGE/USD
+
+FUN/USD
+
+HOME/USD
+
+INDEX/USD
+
+KSM/USD
+
+LTC/USD
+
+MATIC/USD
+
+RLC/USD
+
+RSR/USD
+
+SXP/USD
+
+XMR/USD
+
+XNO/USD
+
+XRP/USD
+
+XVG/USD
+
+XYO/USD
+
+XLM/USD
+
+Sheet 2 — Layer 2: Daily Log
+Market
+
+Mid-Day High
+
+Peak Volume Time
+
+Volume by Time
+
+Price Spike Count
+
+Largest Spike Size
+
+Largest Synthetic Spike
+
+Spike Events During Trades
+
+Recovery Time
+
+Engine Stability Notes
+
+Sheet 3 — Layer 3: Trades
+Market
+
+Entry Price
+
+Exit Price
+
+Buy/Sell
+
+Reason for Entry
+
+Trade Session Date
+
+Time in Trade
+
+Notes
+
+Sheet 4 — Layer 4: Engine Map
+Market
+
+Engine Type
+
+Typical Spike Size
+
+Memory Tap Frequency
+
+Memory Tap Depth
+
+Geometry-Engine Conditions
+
+Family-Switch Conditions
+
+Pre-Clearing Logic
+
+Anchor Relevance Rules
+
+Recovery Signature
+
+Notes
+
+Sheet 5 — Layer 4.2: Movement-Family Behavior
+Market
+
+Actor Family Lifespan
+
+Branch Groups
+
+Memory Tap Frequency
+
+Geometry-Trends
+
+Family-Switch Conditions
+
+Pre-Clearing Logic
+
+Anchor Relevance Rules
+
+Notes
+
+Sheet 6 — Layer 4.3: Actor Registry
+Actor Type
+
+Burst
+
+Cascade
+
+Drift
+
+Vacuum
+
+Ceiling-Test
+
+Compression
+
+Purge
+
+Weaver
+
+Inversion
+
+Repair
+
+Anchor
+
+Migration
+
+Sheet 7 — Layer 5: Memory Taps
+Market
+
+Date
+
+Typical Spike Interval
+
+Typical Spike Size
+
+Memory Tap Frequency
+
+Memory Tap Depth
+
+Cell Behavior
+
+Actor Processing
+
+Book Behavior
+
+Dump Candle Signature
+
+Recovery Signature
+
+Notes
+
+Sheet 8 — Layer 6.1: Price Spikes
+Market
+
+Spike Size
+
+Spike Direction
+
+Spike Cause
+
+Structure After Spike
+
+Sheet 9 — Layer 6.2: Candle Tracker 1M
+Market
+
+Time (PDT)
+
+Date
+
+Open
+
+High
+
+Low
+
+Close
+
+1M Time Stamps
+
+Sheet 10 — Layer 6.3: Candle Tracker 15M
+Market
+
+Time (PDT)
+
+Date
+
+Open
+
+High
+
+Low
+
+Close
+
+15M Time Stamps
+
+Sheet 11 — Layer 6.3: Candle Tracker 30M
+Market
+
+Time (PDT)
+
+Date
+
+Open
+
+High
+
+Low
+
+Close
+
+30M Time Stamps
+
+Sheet 12 — Layer 6.4: Candle Tracker 1H
+Market
+
+Time (PDT)
+
+Date
+
+Open
+
+High
+
+Low
+
+Close
+
+1H Time Stamps
+
+Sheet 13 — Layer 6.5: Liquidation Events
+Market
+
+Date
+
+Time (PDT)
+
+Long/Short Liquidation
+
+Liquidation Size
+
+Cluster Density
+
+Liquidation Type
+
+Liquidation Movement
+
+Cascade Depth
+
+Engine Reaction
+
+Actor Reaction
+
+Book Reaction
+
+Spike Interaction
+
+Synthetic Interaction
+
+Recovery Time
+
+Follow-Through Strength
+
+Pre-Event Structure
+
+Post-Event Structure
+
+Notes
+
+Sheet 14 — Layer 6.6: Synthetic Shared Timing
+Market
+
+Start Price
+
+Price Spike Count
+
+Largest Spike Size
+
+Peak Price
+
+Price Dumps
+
+Notes on Pre-Ignition
+
+Actor Notes
+
+Price Movement Sync
+
+Sheet 15 — Layer 6.7: Synthetic Spikes
+Market
+
+Date
+
+Synthetic Spike Size
+
+Synthetic Spike Pattern
+
+Engine Reaction
+
+Actor Reaction
+
+Notes
+
+Sheet 16 — Layer 6.8: Synthetic Market Tracker
+Market
+
+Time
+
+Conditions
+
+Peak Price
+
+Movement Type
+
+Notes
+
+Total Run Length
+
+Events Before
+
+Extra Notes
+
+Sheet 17 — Layer 7: Patterns
+Market
+
+Pattern Name
+
+Conditions
+
+Behavior
+
+Outcome
+
+Notes
+
+Screenshots
