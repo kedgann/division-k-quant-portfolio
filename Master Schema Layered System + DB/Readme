@@ -17,3 +17,20 @@
 | Sheet 15 | Layer 6.7 | Synthetic Spikes |
 | Sheet 16 | Layer 6.8 | Synthetic Market Tracker |
 | Sheet 17 | Layer 7 | Patterns |
+
+
+
+| Actor Type | Core Role |
+| --- | --- |
+| **Burst Actor** | Sudden expansion bursts; upper‑lane boundary tests |
+| **Cascade Actor** | High‑velocity multi‑lane cascades |
+| **Drift Actor** | Drift corridor maintenance; drift floor formation |
+| **Vacuum Actor** | Hollow‑book spikes; displacement events |
+| **Ceiling‑Test Actor** | Boundary taps; ceiling evaluation |
+| **Compression Actor** | Tight spacing; drift → expansion preparation |
+| **Purge Actor** | Clears stacked lows/highs; geometry reset |
+| **Weaver Actor** | Lane stitching; corridor maintenance |
+| **Inversion Actor** | Chaotic spacing; deep taps |
+| **Repair Actor** | Controlled descent; geometry rebalance |
+| **Anchor Actor** | Defines meaningful highs/lows |
+| **Migration Actor** | Moves ceiling/floor boundaries |
