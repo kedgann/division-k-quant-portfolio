@@ -1,7 +1,6 @@
-# Layer 1 — Markets
-
+Synthetic Markets
 <details>
-<summary><strong>Synthetic Markets</strong></summary>
+<summary><strong>View Markets</strong></summary>
 
 ALT-USD  
 ALI-USD  
@@ -13,8 +12,9 @@ PUMP-USD
 
 </details>
 
+Actor-Heavy Markets
 <details>
-<summary><strong>Actor-Heavy Markets</strong></summary>
+<summary><strong>View Markets</strong></summary>
 
 ATOM-USD  
 BAL-USD  
@@ -25,8 +25,9 @@ STG-USD
 
 </details>
 
+Volatile Markets
 <details>
-<summary><strong>Volatile Markets</strong></summary>
+<summary><strong>View Markets</strong></summary>
 
 DOGE-USD  
 APE-USD  
@@ -35,8 +36,9 @@ TOSHI-USD
 
 </details>
 
+Stable / Clean Geometry Markets
 <details>
-<summary><strong>Stable / Clean Geometry Markets</strong></summary>
+<summary><strong>View Markets</strong></summary>
 
 HOME-USD  
 HONE-USD  
