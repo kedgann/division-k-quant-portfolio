@@ -1,50 +1,84 @@
-Sheet 1 — Layer 1: Markets
-AGLD/USD
+| Sheet | Layer | Name |
+| --- | --- | --- |
+| Sheet 1 | Layer 1 | Markets |
+| Sheet 2 | Layer 2 | Daily Log |
+| Sheet 3 | Layer 3 | Trades |
+| Sheet 4 | Layer 4 | Engine Map |
+| Sheet 5 | Layer 4.2 | Movement‑Family Behavior |
+| Sheet 6 | Layer 4.3 | Actor Registry |
+| Sheet 7 | Layer 5 | Memory Taps |
+| Sheet 8 | Layer 6 | Price Spikes |
+| Sheet 9 | Layer 6.1 | Candle Tracker 1M |
+| Sheet 10 | Layer 6.2 | Candle Tracker 15M |
+| Sheet 11 | Layer 6.3 | Candle Tracker 30M |
+| Sheet 12 | Layer 6.4 | Candle Tracker 1H |
+| Sheet 13 | Layer 6.5 | Liquidation Events |
+| Sheet 14 | Layer 6.6 | Synthetic Shared Timing |
+| Sheet 15 | Layer 6.7 | Synthetic Spikes |
+| Sheet 16 | Layer 6.8 | Synthetic Market Tracker |
+| Sheet 17 | Layer 7 | Patterns |
 
-ALPHA/USD
+Layer 1 — Markets
+<details>
+<summary><strong>View Columns</strong></summary>
 
-ALT/USD
+Columns:
 
-ATOM/USD
-
-BILL/USD
-
-DOGE/USD
-
-FUN/USD
-
-HOME/USD
-
-INDEX/USD
-
-KSM/USD
-
-LTC/USD
-
-MATIC/USD
-
-RLC/USD
-
-RSR/USD
-
-SXP/USD
-
-XMR/USD
-
-XNO/USD
-
-XRP/USD
-
-XVG/USD
-
-XYO/USD
-
-XLM/USD
-
-Sheet 2 — Layer 2: Daily Log
 Market
 
-Mid-Day High
+Tracked Markets:  
+AI‑USD
+ALLO‑USD
+ALT‑USD
+APE‑USD
+ATOM‑USD
+BAL‑USD
+BILL‑USD
+DEGN‑USD
+DOGE‑USD
+FIDA‑USD
+FIS‑USD
+FUN1‑USD
+HOME‑USD
+HONE‑USD
+IDEX‑USD
+JTO‑USD
+KAT‑USD
+KTA‑USD
+LRC‑USD
+NEAR‑USD
+NEX‑USD
+NKN‑USD
+OSMO‑USD
+OXT‑USD
+PIRATE‑USD
+POLS‑USD
+RSC‑USD
+STG‑USD
+SXT‑USD
+TIA‑USD
+TOSHI‑USD
+UNI‑USD
+XLM‑USD
+XPL‑USD
+XRP‑USD
+XYO‑USD
+PUMP‑USD
+GHST‑USD
+
+</details>
+
+Layer 2 — Daily Log
+<details>
+<summary><strong>View Columns</strong></summary>
+
+Date
+
+Market
+
+End‑Day High
+
+End‑Day Low
 
 Peak Volume Time
 
@@ -52,37 +86,61 @@ Volume by Time
 
 Price Spike Count
 
+Synthetic Spike Count
+
 Largest Spike Size
 
-Largest Synthetic Spike
+Largest Synthetic Spike Size
 
-Spike Events During Trades
-
-Recovery Time
+Actor Pressure Notes
 
 Engine Stability Notes
 
-Sheet 3 — Layer 3: Trades
+Recovery Time
+
+</details>
+
+Layer 3 — Trades
+<details>
+<summary><strong>View Columns</strong></summary>
+
+Date
+
 Market
 
 Entry Price
 
 Exit Price
 
+P/L
+
 Buy/Sell
 
 Reason for Entry
 
-Trade Session Date
+Reason for Exit
+
+Emotional State (optional)
+
+Structural Notes
 
 Time in Trade
 
-Notes
+Actor Behavior Observed
 
-Sheet 4 — Layer 4: Engine Map
+Spike Events During Trade
+
+</details>
+
+Layer 4 — Engine Map
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Market
 
 Engine Type
+
+Typical Spike Interval
 
 Typical Spike Size
 
@@ -90,38 +148,74 @@ Memory Tap Frequency
 
 Memory Tap Depth
 
-Geometry-Engine Conditions
+Coil Behavior (tight/loose/erratic)
 
-Family-Switch Conditions
+Actor Presence (low/medium/high)
 
-Pre-Clearing Logic
+Book Behavior (thick/thin/hollow)
 
-Anchor Relevance Rules
+Dump Candle Signature
 
 Recovery Signature
 
+Geometry‑Break Conditions
+
+Family‑Switch Conditions
+
+Pre‑Clearing Logic
+
+Anchor Relevance Rules
+
+Inversion Turbulence Markers
+
+Ceiling Migration Markers
+
+Decay‑Repair Markers
+
+Drift Floor Formation Conditions
+
+Drift Floor Failure Conditions
+
+Purge‑Style Sweep Conditions
+
+Actor‑Presence Requirements
+
+Book‑State Requirements
+
 Notes
 
-Sheet 5 — Layer 4.2: Movement-Family Behavior
+</details>
+
+Layer 4.2 — Movement‑Family Behavior
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Market
 
-Actor Family Lifespan
+Active Family Lifespan (min)
 
-Branch Groups
+Branch Count (always 2)
 
-Memory Tap Frequency
+Sequence Count (always 3)
 
-Geometry-Trends
+Sequence Timing (approach/test/resolution)
 
-Family-Switch Conditions
+Geometry Trends
 
-Pre-Clearing Logic
+Family‑Switch Conditions
+
+Pre‑Clearing Logic
 
 Anchor Relevance Rules
 
 Notes
 
-Sheet 6 — Layer 4.3: Actor Registry
+</details>
+
+Layer 4.3 — Actor Registry
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Actor Type
 
 Burst
@@ -132,7 +226,7 @@ Drift
 
 Vacuum
 
-Ceiling-Test
+Ceiling‑Test
 
 Compression
 
@@ -148,7 +242,12 @@ Anchor
 
 Migration
 
-Sheet 7 — Layer 5: Memory Taps
+</details>
+
+Layer 5 — Memory Taps
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Market
 
 Date
@@ -173,18 +272,30 @@ Recovery Signature
 
 Notes
 
-Sheet 8 — Layer 6.1: Price Spikes
+</details>
+
+Layer 6 — Price Spikes
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Market
 
 Spike Size
 
 Spike Direction
 
-Spike Cause
+Spike Cause (actor/book/liquidity vacuum)
+
+Structure Before Spike
 
 Structure After Spike
 
-Sheet 9 — Layer 6.2: Candle Tracker 1M
+</details>
+
+Layer 6.1 — Candle Tracker 1M
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Market
 
 Time (PDT)
@@ -201,7 +312,12 @@ Close
 
 1M Time Stamps
 
-Sheet 10 — Layer 6.3: Candle Tracker 15M
+</details>
+
+Layer 6.2 — Candle Tracker 15M
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Market
 
 Time (PDT)
@@ -218,7 +334,12 @@ Close
 
 15M Time Stamps
 
-Sheet 11 — Layer 6.3: Candle Tracker 30M
+</details>
+
+Layer 6.3 — Candle Tracker 30M
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Market
 
 Time (PDT)
@@ -235,7 +356,12 @@ Close
 
 30M Time Stamps
 
-Sheet 12 — Layer 6.4: Candle Tracker 1H
+</details>
+
+Layer 6.4 — Candle Tracker 1H
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Market
 
 Time (PDT)
@@ -252,7 +378,12 @@ Close
 
 1H Time Stamps
 
-Sheet 13 — Layer 6.5: Liquidation Events
+</details>
+
+Layer 6.5 — Liquidation Events
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Market
 
 Date
@@ -283,15 +414,20 @@ Synthetic Interaction
 
 Recovery Time
 
-Follow-Through Strength
+Follow‑Through Strength
 
-Pre-Event Structure
+Pre‑Event Structure
 
-Post-Event Structure
+Post‑Event Structure
 
 Notes
 
-Sheet 14 — Layer 6.6: Synthetic Shared Timing
+</details>
+
+Layer 6.6 — Synthetic Shared Timing
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Market
 
 Start Price
@@ -304,13 +440,18 @@ Peak Price
 
 Price Dumps
 
-Notes on Pre-Ignition
+Notes on Pre‑Ignition
 
 Actor Notes
 
 Price Movement Sync
 
-Sheet 15 — Layer 6.7: Synthetic Spikes
+</details>
+
+Layer 6.7 — Synthetic Spikes
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Market
 
 Date
@@ -325,7 +466,12 @@ Actor Reaction
 
 Notes
 
-Sheet 16 — Layer 6.8: Synthetic Market Tracker
+</details>
+
+Layer 6.8 — Synthetic Market Tracker
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Market
 
 Time
@@ -340,11 +486,16 @@ Notes
 
 Total Run Length
 
-Events Before
+Events That Occurred Before
 
 Extra Notes
 
-Sheet 17 — Layer 7: Patterns
+</details>
+
+Layer 7 — Patterns
+<details>
+<summary><strong>View Columns</strong></summary>
+
 Market
 
 Pattern Name
@@ -358,3 +509,5 @@ Outcome
 Notes
 
 Screenshots
+
+</details>
