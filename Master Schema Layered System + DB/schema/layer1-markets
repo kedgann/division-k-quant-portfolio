@@ -1,4 +1,6 @@
-## Synthetic Markets
+<details>
+<summary><strong>View Synthetic Markets</strong></summary>
+
 ALT‑USD  
 ALI‑USD  
 DEGEN‑USD  
@@ -6,7 +8,11 @@ FUNJ1‑USD
 PWUP‑USD  
 PUMP‑USD  
 
-## Actor‑Heavy Markets
+</details>
+
+<details>
+<summary><strong>View Actor‑Heavy Markets</strong></summary>
+
 ATOM‑USD  
 BAL‑USD  
 FIDA‑USD  
@@ -14,21 +20,14 @@ FIS‑USD
 OSMO‑USD  
 STG‑USD  
 
-## Volatile / High‑Spike Markets
+</details>
+
+<details>
+<summary><strong>View Volatile Markets</strong></summary>
+
 DOGE‑USD  
 APE‑USD  
 TIA‑USD  
 TOSHI‑USD  
 
-## Stable / Clean Geometry Markets
-NEAR‑USD  
-LRC‑USD  
-UNI‑USD  
-XRP‑USD  
-
-## Experimental / Low‑Volume Markets
-KAT‑USD  
-KTA‑USD  
-PIRATE‑USD  
-RSC‑USD  
-GHST‑USD  
+</details>
