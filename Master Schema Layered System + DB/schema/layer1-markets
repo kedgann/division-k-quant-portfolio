@@ -1,40 +1,34 @@
-| Market |
-| --- |
-| AI‑USD |
-| ALLO‑USD |
-| ALT‑USD |
-| APE‑USD |
-| ATOM‑USD |
-| BAL‑USD |
-| BILL‑USD |
-| DEGEN‑USD |
-| DOGE‑USD |
-| FIDA‑USD |
-| FIS‑USD |
-| FUNJI‑USD |
-| HOME‑USD |
-| HONE‑USD |
-| IDEX‑USD |
-| JTO‑USD |
-| KAT‑USD |
-| KTA‑USD |
-| LRC‑USD |
-| NEAR‑USD |
-| NEX‑USD |
-| MNK‑USD |
-| OSMO‑USD |
-| OXT‑USD |
-| PIRATE‑USD |
-| POLS‑USD |
-| RSC‑USD |
-| STG‑USD |
-| SXT‑USD |
-| TIA‑USD |
-| TOSHI‑USD |
-| UNI‑USD |
-| XLN‑USD |
-| XPL‑USD |
-| XRP‑USD |
-| XYO‑USD |
-| PUMP‑USD |
-| GHST‑USD |
+## Synthetic Markets
+ALT‑USD  
+ALI‑USD  
+DEGEN‑USD  
+FUNJ1‑USD  
+PWUP‑USD  
+PUMP‑USD  
+
+## Actor‑Heavy Markets
+ATOM‑USD  
+BAL‑USD  
+FIDA‑USD  
+FIS‑USD  
+OSMO‑USD  
+STG‑USD  
+
+## Volatile / High‑Spike Markets
+DOGE‑USD  
+APE‑USD  
+TIA‑USD  
+TOSHI‑USD  
+
+## Stable / Clean Geometry Markets
+NEAR‑USD  
+LRC‑USD  
+UNI‑USD  
+XRP‑USD  
+
+## Experimental / Low‑Volume Markets
+KAT‑USD  
+KTA‑USD  
+PIRATE‑USD  
+RSC‑USD  
+GHST‑USD  
