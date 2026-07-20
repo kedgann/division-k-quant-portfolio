@@ -1,7 +1,6 @@
 Synthetic Markets
 <details>
 <summary><strong>View Markets</strong></summary>
-
 ALT-USD  
 ALI-USD  
 DEGEN-USD  
@@ -9,37 +8,28 @@ FUNJ1-USD
 NMK-USD  
 PWUP-USD  
 PUMP-USD  
-
 </details>
-
 Actor-Heavy Markets
 <details>
 <summary><strong>View Markets</strong></summary>
-
 ATOM-USD  
 BAL-USD  
 FIDA-USD  
 FIS-USD  
 OSMO-USD  
 STG-USD  
-
 </details>
-
 Volatile Markets
 <details>
 <summary><strong>View Markets</strong></summary>
-
 DOGE-USD  
 APE-USD  
 TIA-USD  
 TOSHI-USD  
-
 </details>
-
 Stable / Clean Geometry Markets
 <details>
 <summary><strong>View Markets</strong></summary>
-
 HOME-USD  
 HONE-USD  
 IDEX-USD  
@@ -59,5 +49,4 @@ XPL-USD
 XRP-USD  
 XYO-USD  
 GHST-USD  
-
 </details>
