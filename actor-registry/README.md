@@ -1,51 +1,27 @@
-Layer 4.3 — Actor Registry
-Division K — Structural Engine Actors
-Actor Types
-Burst Actor  
-Cascade Actor  
-Drift Actor  
-Vacuum Actor  
-Ceiling‑Test Actor  
-Compression Actor  
-Purge Actor  
-Weaver Actor  
-Inversion Actor  
-Repair Actor  
-Anchor Actor  
-Migration Actor
+| Actor Type | Core Role |
+| --- | --- |
+| **Burst Actor** | Sudden expansion bursts; upper‑lane boundary tests |
+| **Cascade Actor** | High‑velocity multi‑lane cascades |
+| **Drift Actor** | Drift corridor maintenance; drift floor formation |
+| **Vacuum Actor** | Hollow‑book spikes; displacement events |
+| **Ceiling‑Test Actor** | Boundary taps; ceiling evaluation |
+| **Compression Actor** | Tight spacing; drift → expansion preparation |
+| **Purge Actor** | Clears stacked lows/highs; geometry reset |
+| **Weaver Actor** | Lane stitching; corridor maintenance |
+| **Inversion Actor** | Chaotic spacing; deep taps |
+| **Repair Actor** | Controlled descent; geometry rebalance |
+| **Anchor Actor** | Defines meaningful highs/lows |
+| **Migration Actor** | Moves ceiling/floor boundaries |
 
-Compact Actor Definitions
-Burst Actor — Creates sudden expansion bursts and tests upper‑lane boundaries.
-
-Cascade Actor — Drives high‑velocity multi‑lane cascades through the corridor stack.
-
-Drift Actor — Maintains drift corridors and forms stable drift floors.
-
-Vacuum Actor — Creates hollow‑book spikes and sudden displacement events.
-
-Ceiling‑Test Actor — Repeatedly taps the top boundary to test rejection or trigger migration.
-
-Compression Actor — Tightens spacing and prepares drift → expansion transitions.
-
-Purge Actor — Clears stacked lows/highs to reset geometry and remove stale inheritance.
-
-Weaver Actor — Stitches lanes, maintains corridor spacing, keeps the engine structurally alive.
-
-Inversion Actor — Creates chaotic spacing and deep taps during geometry instability.
-
-Repair Actor — Performs controlled descent to rebalance geometry after ceiling migration.
-
-Anchor Actor — Establishes meaningful highs/lows that define the current family’s geometry.
-
-Migration Actor — Shifts ceiling or floor boundaries to new structural zones.
-
-Full Actor Specifications
 Burst Actor
+<details>
+<summary><strong>Specification</strong></summary>
+
 Purpose
 Creates sudden expansion bursts and tests upper‑lane boundaries.
 
 Core Mechanics
-Rapid expansion: Lane B → C → D
+Lane B → C → D expansion
 
 Burst inheritance propagation
 
@@ -53,211 +29,109 @@ Temporary spacing expansion
 
 Upper‑boundary geometry tests
 
-Short‑lived high‑velocity displacement
-
 Often triggers cascade actors
 
-Lane / Sector Scope
-Primary: Lane B, C, D
+Spacing
+Expansion: +5 to +10 units
 
-Secondary: Ceiling zone
+Pre‑burst: tight compression
 
-Sector: 1–2 sectors
+Post‑burst: spacing collapse → drift corridor
 
-Spacing Signature
-Wide spacing (+5 to +10 units)
-
-Pre‑burst: tight Lane B compression
-
-Post‑burst: spacing collapses → drift corridor
-
-Movement‑Family Links
-Cascade
-
-Expansion
-
-Ceiling‑Test
-
-Weaver Drift‑Cycle
-
-Inversion
-
-Engine Conditions (Required)
+Engine Requirements
 Intact geometry
+
+Mid‑range thickness
 
 Active actors
 
-Mid‑range book thickness
-
 Stable drift floor
 
-Unbroken corridor spacing
-
-Cannot Operate In
+Fails In
 Hollow books
 
 Collapsed sectors
 
 Broken geometry
 
-Deep inversion
-
-Book Requirements
-Medium thickness
-
-Stacked bids/asks
-
-No hollow zones in B/C
-
-Actor presence near ceiling
+</details>
 
 Cascade Actor
+<details>
+<summary><strong>Specification</strong></summary>
+
 Purpose
 Drives high‑velocity multi‑lane cascades.
 
 Core Mechanics
-Converts burst → sustained motion
+Burst → sustained motion
 
 Multi‑lane traversal (B → C → D → Ceiling)
 
 Actor‑velocity stacking
 
-Temporary corridor symmetry break
+Temporary symmetry break
 
-Multi‑phase displacement
-
-Often triggers ceiling‑test or purge
-
-Lane / Sector Scope
-Primary: Lane C, D, Ceiling
-
-Secondary: Lane B
-
-Sector: 2–3 sectors
-
-Spacing Signature
-Aggressive widening (+10 to +20 units)
+Spacing
+Expansion: +10 to +20 units
 
 Ladder spacing
 
-Post‑cascade: spacing collapse → muted decay
+Post‑cascade spacing collapse
 
-Movement‑Family Links
-Cascade
-
-Expansion
-
-Ceiling‑Test
-
-Inversion
-
-Decay‑Repair
-
-Engine Conditions
-Intact multi‑lane geometry
-
-Actors across 2+ sectors
-
+Engine Requirements
 Thick mid‑range book
 
-Stable drift floor
+Multi‑lane actor presence
 
-Stable ceiling zone
-
-Cannot Operate In
+Fails In
 Hollow books
-
-Collapsed sectors
 
 Broken drift floors
 
-Inversion turbulence
-
-Purge sweeps
-
-Book Requirements
-Thick mid‑range book
-
-Stacked bids/asks
-
-Ceiling actor presence
-
-No hollow gaps
+</details>
 
 Drift Actor
+<details>
+<summary><strong>Specification</strong></summary>
+
 Purpose
 Maintains drift corridors and forms drift floors.
 
 Core Mechanics
-Slow controlled motion
-
-Passive equilibrium zone
-
-Drift floor formation
+Passive equilibrium
 
 Tight spacing
 
-Resting state between bursts/cascades
+Drift floor formation
 
 Stabilizes geometry
 
-Lane / Sector Scope
-Primary: Drift Floor, Lane A
-
-Secondary: Lane B
-
-Sector: 1 sector
-
-Spacing Signature
-Tight spacing (1–3 units)
+Spacing
+Tight: 1–3 units
 
 Repeated taps
 
-Post‑drift: slight widening
+Post‑drift slight widening
 
-Movement‑Family Links
-Drift
-
-Expansion
-
-Decay‑Repair
-
-Weaver Drift‑Cycle
-
-Inversion
-
-Engine Conditions
+Engine Requirements
 Intact drift corridor
 
 Stable book
 
 Muted decay
 
-Low actor velocity
-
-No cascade/burst
-
-Cannot Operate In
+Fails In
 Hollow books
-
-Broken drift floors
 
 Purge sweeps
 
-Cascades
-
-Inversion turbulence
-
-Book Requirements
-Medium thickness
-
-Balanced bids/asks
-
-No hollow zones
-
-Symmetry across taps
+</details>
 
 Vacuum Actor
+<details>
+<summary><strong>Specification</strong></summary>
+
 Purpose
 Creates hollow‑book spikes and displacement events.
 
@@ -270,67 +144,33 @@ Breaks spacing symmetry
 
 Vacuum spikes
 
-Forces instability/inversion
+Forces instability
 
-Triggers purge/repair
-
-Lane / Sector Scope
-Downward: Lane C → A
-
-Upward: Lane B → D
-
-Sector: Full stack
-
-Spacing Signature
-Extremely wide (+15 to +40 units)
+Spacing
+Extremely wide: +15 to +40 units
 
 Instant displacement
 
 Chaotic post‑vacuum spacing
 
-Movement‑Family Links
-Inversion
-
-Decay‑Repair
-
-Purge
-
-Weaver Drift‑Cycle
-
-Rare cascade
-
-Engine Conditions
+Engine Requirements
 Hollow zones
 
 Missing shelves
 
 Collapsed mid‑range
 
-Low actor presence
-
-Broken symmetry
-
-Cannot Operate In
+Fails In
 Thick books
 
 Stable drift floors
 
-Cascades
-
-Strong actor presence
-
-Book Requirements
-Thin/hollow book
-
-Missing shelves
-
-Weak drift floor
-
-Weak ceiling
-
-Large gaps
+</details>
 
 Ceiling‑Test Actor
+<details>
+<summary><strong>Specification</strong></summary>
+
 Purpose
 Tests ceiling stability or triggers migration.
 
@@ -343,61 +183,29 @@ Spacing expansion
 
 Determines ceiling strength
 
-Triggers repair after rejection
-
-Lane / Sector Scope
-Primary: Lane D + Ceiling
-
-Secondary: Lane C
-
-Sector: 1–2 sectors
-
-Spacing Signature
-Moderate expansion (+5 to +12 units)
+Spacing
+Moderate: +5 to +12 units
 
 Repeated touches
 
 Post‑test muted decay
 
-Movement‑Family Links
-Ceiling‑Test
-
-Expansion
-
-Cascade
-
-Decay‑Repair
-
-Migration
-
-Engine Conditions
+Engine Requirements
 Intact ceiling
 
 Actors in Lane D
 
-Stable mid‑range
-
-No hollow ceiling zones
-
-Cannot Operate In
+Fails In
 Hollow ceiling
 
 Broken geometry
 
-Inversion turbulence
-
-Vacuum conditions
-
-Book Requirements
-Medium/thick book
-
-Stacked asks
-
-Actor presence
-
-No hollow gaps
+</details>
 
 Compression Actor
+<details>
+<summary><strong>Specification</strong></summary>
+
 Purpose
 Tightens spacing and prepares drift → expansion.
 
@@ -406,65 +214,33 @@ Reduces spacing
 
 Tight‑pack geometry
 
-Muted decay stabilization
-
 Pre‑burst staging
 
 Prevents hollow zones
 
-Lane / Sector Scope
-Primary: Lane A + B
-
-Secondary: Lane C
-
-Sector: 1 sector
-
-Spacing Signature
-Very tight (1–4 units)
+Spacing
+Very tight: 1–4 units
 
 Micro‑taps
 
 Post‑compression widening
 
-Movement‑Family Links
-Drift
-
-Expansion
-
-Decay‑Repair
-
-Weaver Drift‑Cycle
-
-Inversion
-
-Engine Conditions
+Engine Requirements
 Intact lower lanes
 
 Stable book
 
-Muted decay
-
-Actor presence
-
-Cannot Operate In
+Fails In
 Hollow books
-
-Broken drift floors
 
 Vacuum spikes
 
-Cascades
-
-Book Requirements
-Medium thickness
-
-Balanced bids/asks
-
-No hollow gaps
-
-No stacked highs/lows
+</details>
 
 Purge Actor
+<details>
+<summary><strong>Specification</strong></summary>
+
 Purpose
 Clears stacked lows/highs and resets geometry.
 
@@ -477,59 +253,29 @@ Spacing collapse
 
 Full‑stack resets
 
-Triggers drift/repair
-
-Lane / Sector Scope
-Downward: Lane A + Drift Floor
-
-Upward: Lane C + D
-
-Sector: Full stack
-
-Spacing Signature
-Sharp collapse (−10 to −25 units)
+Spacing
+Collapse: −10 to −25 units
 
 Rapid clearing
 
 Post‑purge muted decay
 
-Movement‑Family Links
-Purge
-
-Decay‑Repair
-
-Drift
-
-Inversion
-
-Weaver Drift‑Cycle
-
-Engine Conditions
+Engine Requirements
 Stacked lows/highs
 
 Stalled geometry
 
-Blocked inheritance
-
-Cannot Operate In
+Fails In
 Clean geometry
-
-Cascades
-
-Stable drift floors
 
 Thick books
 
-Book Requirements
-Thick congested book
-
-Stacked lows/highs
-
-No hollow zones
-
-Enough liquidity to sweep
+</details>
 
 Weaver Actor
+<details>
+<summary><strong>Specification</strong></summary>
+
 Purpose
 Stitches lanes and maintains corridor spacing.
 
@@ -542,65 +288,29 @@ Micro‑burst → micro‑drift cycles
 
 Structural continuity
 
-Prevents collapse
-
-Supports drift → expansion
-
-Lane / Sector Scope
-Primary: Lane A, B, C
-
-Secondary: Lane D
-
-Sector: 2–5 lanes
-
-Spacing Signature
+Spacing
 5‑spacing logic
 
 Controlled micro‑taps
 
 Stable corridor
 
-Movement‑Family Links
-Weaver Drift‑Cycle
-
-Drift
-
-Expansion
-
-Decay‑Repair
-
-Purge
-
-Inversion
-
-Engine Conditions
+Engine Requirements
 Visible corridor
 
 Active actors
 
-Stable book
-
-No hollow mid‑range
-
-Cannot Operate In
+Fails In
 Hollow books
 
 Collapsed sectors
 
-Broken geometry
-
-Cascades
-
-Book Requirements
-Medium thickness
-
-Balanced bids/asks
-
-No hollow gaps
-
-Multi‑lane visibility
+</details>
 
 Inversion Actor
+<details>
+<summary><strong>Specification</strong></summary>
+
 Purpose
 Creates chaotic spacing and deep taps.
 
@@ -611,63 +321,29 @@ Deep taps
 
 Forces instability
 
-Disrupts stitching
-
 Drift floor collapse
 
-Triggers vacuum/purge
-
-Lane / Sector Scope
-Downward: Lane A + Drift Floor
-
-Upward: Lane C + D
-
-Sector: Full stack
-
-Spacing Signature
-Chaotic (+10 to −20 units variance)
+Spacing
+Chaotic variance: +10 to −20 units
 
 Erratic lane jumps
 
-Movement‑Family Links
-Inversion
-
-Decay‑Repair
-
-Purge
-
-Vacuum
-
-Weaver Drift‑Cycle
-
-Engine Conditions
+Engine Requirements
 Broken geometry
-
-Unstable spacing
-
-Weak drift floor
 
 Hollow zones
 
-Cannot Operate In
-Stable drift floors
-
+Fails In
 Intact geometry
 
 Thick books
 
-Cascades
-
-Book Requirements
-Thin/unstable book
-
-Hollow zones
-
-Missing shelves
-
-Weak boundaries
+</details>
 
 Repair Actor
+<details>
+<summary><strong>Specification</strong></summary>
+
 Purpose
 Controlled descent to rebalance geometry.
 
@@ -678,61 +354,29 @@ Smooth chaotic gaps
 
 Restore lane continuity
 
-Rebuild drift floor candidates
+Drift floor reconstruction
 
-Reduce volatility
-
-Lane / Sector Scope
-Primary: Lane B, A, Drift Floor
-
-Secondary: Lane C
-
-Sector: 1–2 sectors
-
-Spacing Signature
-Controlled collapse (−5 to −12 units)
+Spacing
+Controlled collapse: −5 to −12 units
 
 Repeated taps
 
-Movement‑Family Links
-Decay‑Repair
-
-Ceiling‑Test
-
-Purge
-
-Inversion
-
-Weaver Drift‑Cycle
-
-Engine Conditions
+Engine Requirements
 Broken geometry
 
-Chaotic spacing
+Stable lower book
 
-Actor presence in lower lanes
-
-Stable book
-
-Cannot Operate In
+Fails In
 Hollow books
-
-Collapsed sectors
 
 Inversion turbulence
 
-Cascades
-
-Book Requirements
-Medium thickness
-
-Balanced bids/asks
-
-No hollow gaps
-
-No stacked highs/lows
+</details>
 
 Anchor Actor
+<details>
+<summary><strong>Specification</strong></summary>
+
 Purpose
 Defines meaningful highs/lows that shape geometry.
 
@@ -741,63 +385,29 @@ Selects structural highs/lows
 
 Filters noise
 
-Defines geometry boundaries
-
 Creates anchor points
 
-Determines drift floor candidates
+Defines geometry boundaries
 
-Controls tap relevance
-
-Lane / Sector Scope
-Primary: Lane A, Drift Floor, Lane C
-
-Secondary: Lane D + Ceiling
-
-Spacing Signature
+Spacing
 Stable, symmetric, low‑variance
 
-Movement‑Family Links
-Drift
-
-Expansion
-
-Ceiling‑Test
-
-Cascade
-
-Decay‑Repair
-
-Inversion
-
-Engine Conditions
+Engine Requirements
 Stable geometry
 
 Repeated taps
 
-Medium book thickness
-
-Cannot Operate In
+Fails In
 Hollow books
 
 Chaotic spacing
 
-Broken geometry
-
-Purge
-
-Vacuum
-
-Book Requirements
-Medium thickness
-
-Balanced bids/asks
-
-No hollow gaps
-
-Actor presence
+</details>
 
 Migration Actor
+<details>
+<summary><strong>Specification</strong></summary>
+
 Purpose
 Shifts ceiling or floor boundaries.
 
@@ -810,58 +420,17 @@ Migration taps
 
 Spacing realignment
 
-Initiates new movement families
+Spacing
+Moderate expansion: +8 to +15 units
 
-Lane / Sector Scope
-Upward: Ceiling + Lane D
-
-Downward: Drift Floor + Lane A
-
-Sector: 2–3 sectors
-
-Spacing Signature
-Moderate expansion (+8 to +15 units)
-
-Movement‑Family Links
-Migration
-
-Ceiling‑Test
-
-Drift
-
-Cascade
-
-Decay‑Repair
-
-Weaver Drift‑Cycle
-
-Engine Conditions
+Engine Requirements
 Boundary instability
-
-Repeated tests
-
-Medium/thick book
 
 Actor presence
 
-Cannot Operate In
+Fails In
 Hollow books
 
 Broken geometry
 
-Inversion
-
-Vacuum
-
-Collapsed sectors
-
-Book Requirements
-Medium/thick book
-
-Stacked asks/bids
-
-No hollow gaps
-
-Actor presence
-
-Balanced mid‑range
+</details>
