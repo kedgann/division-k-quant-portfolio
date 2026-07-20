@@ -1,79 +1,61 @@
-Layer 1 — Markets
+# Layer 1 — Markets
+
 <details>
 <summary><strong>Synthetic Markets</strong></summary>
 
-ALT‑USD
-ALI‑USD
-DEGEN‑USD
-FUNJ1‑USD
-NMK‑USD
-PWUP‑USD
-PUMP‑USD
+ALT-USD  
+ALI-USD  
+DEGEN-USD  
+FUNJ1-USD  
+NMK-USD  
+PWUP-USD  
+PUMP-USD  
 
 </details>
 
 <details>
-<summary><strong>Actor‑Heavy Markets</strong></summary>
+<summary><strong>Actor-Heavy Markets</strong></summary>
 
-ATOM‑USD
-BAL‑USD
-FIDA‑USD
-FIS‑USD
-OSMO‑USD
-STG‑USD
+ATOM-USD  
+BAL-USD  
+FIDA-USD  
+FIS-USD  
+OSMO-USD  
+STG-USD  
 
 </details>
 
 <details>
 <summary><strong>Volatile Markets</strong></summary>
 
-DOGE‑USD
-APE‑USD
-TIA‑USD
-TOSHI‑USD
+DOGE-USD  
+APE-USD  
+TIA-USD  
+TOSHI-USD  
 
 </details>
 
 <details>
 <summary><strong>Stable / Clean Geometry Markets</strong></summary>
 
-HOME‑USD
-HONE‑USD
-IDEX‑USD
-JTO‑USD
-KAT‑USD
-KTA‑USD
-LRC‑USD
-NEAR‑USD
-NEX‑USD
-OXT‑USD
-POLS‑USD
-RSC‑USD
-SXT‑USD
-UNI‑USD
-XLN‑USD
-XPL‑USD
-XRP‑USD
-XYO‑USD
-GHST‑USD
+HOME-USD  
+HONE-USD  
+IDEX-USD  
+JTO-USD  
+KAT-USD  
+KTA-USD  
+LRC-USD  
+NEAR-USD  
+NEX-USD  
+OXT-USD  
+POLS-USD  
+RSC-USD  
+SXT-USD  
+UNI-USD  
+XLN-USD  
+XPL-USD  
+XRP-USD  
+XYO-USD  
+GHST-USD  
 
 </details>
-
-⭐ Why this version looks clean
-Because:
-
-categories break the giant list into readable chunks
-
-collapsible sections hide the clutter
-
-no duplicates
-
-no placeholders
-
-no raw one‑column table
-
-matches the style of your Actor Registry
-
-looks intentional and professional
-
-feels like a real quant dashboard
