@@ -41,4 +41,3 @@ This layer is the engine microstructure log of your system.
 
 You built a structured micro‑spike framework
 
-Layer 6.1 proves you’re modeling engine microstructure, not just price.
