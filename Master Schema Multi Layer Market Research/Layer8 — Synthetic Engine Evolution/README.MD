@@ -33,9 +33,7 @@ multi‑phase engine cycles
 
 This is the layer where your system becomes a full engine‑evolution model, not just a structural tracker.
 
-Recruiters see this and think:
 
-“This person built a dynamic engine‑state model.”
 
 🔹 Contents
 File:
