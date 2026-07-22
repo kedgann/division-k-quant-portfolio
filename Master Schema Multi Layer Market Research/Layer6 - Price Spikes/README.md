@@ -42,4 +42,3 @@ Map dump → recovery signatures
 
 Feed candle‑level spike trackers (6.1–6.4)
 
-This layer is the spike‑behavior engine of your system.
