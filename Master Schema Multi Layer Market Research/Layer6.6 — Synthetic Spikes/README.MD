@@ -43,5 +43,3 @@ Feed timing layers (6.7)
 Identify pre‑ignition windows
 
 Track synthetic coil resets
-
-This layer is the synthetic‑engine detection system of your repo.
