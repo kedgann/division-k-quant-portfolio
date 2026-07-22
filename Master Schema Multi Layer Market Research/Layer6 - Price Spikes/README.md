@@ -43,18 +43,3 @@ Map dump → recovery signatures
 Feed candle‑level spike trackers (6.1–6.4)
 
 This layer is the spike‑behavior engine of your system.
-
-🔹 Notes
-Recruiters love this layer because it shows:
-
-You classify spike types with precision
-
-You understand memory interaction
-
-You track actor and book reactions
-
-You understand dump/recovery signatures
-
-You built a structured spike‑analysis framework
-
-Layer 6 proves you’re modeling engine spikes, not just price.
