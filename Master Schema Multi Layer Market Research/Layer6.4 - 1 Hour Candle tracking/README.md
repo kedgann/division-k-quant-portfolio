@@ -43,5 +43,3 @@ Feed macro spike layers (6.6–6.8)
 Identify ceiling migrations
 
 Diagnose drift‑floor failures
-
-This layer is the macro engine evolution log of your system.
