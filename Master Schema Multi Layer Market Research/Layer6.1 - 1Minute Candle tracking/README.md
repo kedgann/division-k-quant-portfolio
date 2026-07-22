@@ -38,16 +38,6 @@ Identify pre‑ignition windows
 
 This layer is the engine microstructure log of your system.
 
-🔹 Notes
-Recruiters love this layer because it shows:
-
-You analyze markets at the 1‑minute resolution
-
-You understand synthetic microstructure
-
-You classify spike types with precision
-
-You track actor and book reactions
 
 You built a structured micro‑spike framework
 
