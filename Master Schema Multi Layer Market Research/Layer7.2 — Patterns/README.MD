@@ -31,9 +31,7 @@ multi‑market shared patterns
 
 This is the layer where your system becomes a full engine‑pattern model, not just a spike tracker.
 
-Recruiters see this and think:
 
-“This person built a multi‑layer pattern engine for synthetic markets.”
 
 🔹 Contents
 File:
