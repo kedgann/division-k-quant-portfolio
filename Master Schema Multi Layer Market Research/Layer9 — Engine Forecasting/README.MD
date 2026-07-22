@@ -27,9 +27,6 @@ upcoming engine evolution phases
 
 This layer transforms your entire system from analysis → prediction.
 
-Recruiters see this and think:
-
-“This person built a predictive engine model — not just a historical one.”
 
 🔹 Contents
 File:
