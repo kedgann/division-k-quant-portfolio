@@ -111,4 +111,3 @@ Feed synthetic market tracker (Layer 7.1)
 
 Build pattern recognition (Layer 7.2)
 
-This layer is the engine quiet‑state detector of your system.
