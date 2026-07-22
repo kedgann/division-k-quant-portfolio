@@ -147,4 +147,3 @@ Feed forecasting models
 
 Build synthetic engine simulations
 
-This layer is the engine evolution map of your system.
