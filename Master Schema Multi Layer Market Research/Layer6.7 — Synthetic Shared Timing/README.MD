@@ -18,9 +18,7 @@ synthetic ignition cycles
 
 synthetic dump → synthetic V sequences across markets
 
-Recruiters see this and think:
 
-“This person can detect coordinated synthetic behavior across markets.”
 
 🔹 Contents
 File:
