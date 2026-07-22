@@ -139,5 +139,3 @@ Build multi‑hour and multi‑day forecasts
 Feed simulation models
 
 Build predictive trading logic
-
-This layer is the engine forecasting map of your system.
