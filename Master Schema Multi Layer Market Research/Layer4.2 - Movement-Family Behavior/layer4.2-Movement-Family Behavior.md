@@ -81,7 +81,7 @@ XPL — Short, Unstable Family (55 minutes)
 | Book Requirements | Hollow → thin → hollow |
 
 Band & Lane Structure
-Your band system is one of the strongest parts of your engine modeling.
+
 
 JTO — Motion‑Space Stack (Example)
 
