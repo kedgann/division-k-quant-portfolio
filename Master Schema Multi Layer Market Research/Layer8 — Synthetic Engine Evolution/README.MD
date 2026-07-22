@@ -31,7 +31,7 @@ pattern evolution
 
 multi‑phase engine cycles
 
-This is the layer where your system becomes a full engine‑evolution model, not just a structural tracker.
+
 
 
 
