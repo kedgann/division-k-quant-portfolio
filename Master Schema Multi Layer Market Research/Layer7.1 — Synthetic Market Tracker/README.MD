@@ -29,9 +29,7 @@ synthetic burst frequency
 
 This layer is the macro synthetic health monitor of your entire system.
 
-Recruiters see this and think:
 
-“This person built a synthetic‑engine detection framework across multiple markets.”
 
 🔹 Contents
 File:
