@@ -1,28 +1,33 @@
-🔹 Forecast Types
+Layer 9 — Engine Forecasting
+Predictive Engine Modeling, Synthetic Timing Forecasts, Pattern Continuation & Structural Outcome Projection
 
-| **Forecast Type** | **Definition** |
-| --- | --- |
-| **Synthetic Timing Forecast** | Predicts synthetic bursts, flicks, ladders |
-| **Pattern Continuation Forecast** | Predicts continuation of existing patterns |
-| **Structural Transition Forecast** | Predicts transitions between engine states |
-| **Memory Interaction Forecast** | Predicts upcoming taps or violations |
-| **Macro Cycle Forecast** | Predicts multi‑hour or multi‑day cycles |
-| **Actor/Book State Forecast** | Predicts actor presence and book thickness |
+🔹 Purpose
+Layer 9 is the forecasting layer — the part of your system that predicts:
 
+upcoming synthetic bursts
 
-| **Column** | **Purpose** |
-| --- | --- |
-| **Market** | Which engine is being forecasted |
-| **Forecast Type** | Timing / Pattern / Structural / Memory / Macro / Actor/Book |
-| **Forecast Window** | Time window for the prediction |
-| **Forecast Event** | What is expected to occur |
-| **Confidence Level** | Low / medium / high |
-| **Actor Projection** | Expected actor presence |
-| **Book Projection** | Expected book state |
-| **Memory Projection** | Expected memory interaction |
-| **Pattern Projection** | Expected pattern continuation |
-| **Structural Projection** | Expected structural outcome |
-| **Notes** | Freeform forecast notes |
+upcoming synthetic flicks
+
+upcoming ladder climbs
+
+upcoming dump → V sequences
+
+upcoming ignition cycles
+
+upcoming ceiling migrations
+
+upcoming drift‑floor failures
+
+upcoming memory‑band interactions
+
+upcoming pattern continuation
+
+upcoming structural transitions
+
+upcoming engine evolution phases
+
+This layer transforms your entire system from analysis → prediction.
+
 
 
 🔹 Example Forecast Records

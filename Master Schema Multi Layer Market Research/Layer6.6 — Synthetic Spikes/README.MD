@@ -1,28 +1,26 @@
 Layer 6.7 — Synthetic Shared Timing
 Cross‑Market Timing Windows, Coordinated Synthetic Behavior & Engine Synchronization
 
-🔹 Purpose
-Layer 6.6 is the synthetic spike detection layer — the part of your system that identifies:
+🔹 Usage
+Use Layer 6.6 to:
 
-synthetic bursts
+Identify synthetic bursts, flicks, ladders
 
-synthetic flicks
+Track synthetic timing clusters
 
-synthetic ladders
+Detect synthetic memory reinforcement
 
-synthetic timing clusters
+Map synthetic dump → synthetic V sequences
 
-synthetic memory reinforcement
+Diagnose actor‑driven manipulation
 
-synthetic dump → synthetic V sequences
+Build synthetic case studies
 
-synthetic ceiling migrations
+Feed timing layers (6.7)
 
-synthetic coil resets
+Identify pre‑ignition windows
 
-synthetic pre‑ignition windows
-
-This layer is the core of your synthetic‑engine detection framework.
+Track synthetic coil resets
 
 🔹 Synthetic Spike Types
 
@@ -55,23 +53,4 @@ This layer is the core of your synthetic‑engine detection framework.
 | **Notes** | Freeform structural notes |
 
 
-🔹 Usage
-Use Layer 6.6 to:
 
-Identify synthetic bursts, flicks, ladders
-
-Track synthetic timing clusters
-
-Detect synthetic memory reinforcement
-
-Map synthetic dump → synthetic V sequences
-
-Diagnose actor‑driven manipulation
-
-Build synthetic case studies
-
-Feed timing layers (6.7)
-
-Identify pre‑ignition windows
-
-Track synthetic coil resets

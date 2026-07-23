@@ -1,19 +1,20 @@
 Layer 4.3 — Actor Registry
 Actor Identification, Behavioral Signatures, Book Interaction & Structural Influence
 
-Includes:
+Usage
+Use Layer 4.3 to:
 
-Actor type definitions
+Identify which actors are active during a movement
 
-Actor behavior table
+Understand lane scope and spacing requirements
 
-Lane scope & spacing rules
+Predict transitions between movement families
 
-Conditions for activation
+Diagnose geometry instability (inversion, purge, vacuum)
 
-Family mapping
+Map actor involvement during spikes, memory taps, and cascades
 
-Hyperlinked registry structure
+Build case studies for synthetic vs natural actor behavior
 
 
 🔹 Actor Types (High‑Level Definitions)
@@ -32,20 +33,3 @@ Hyperlinked registry structure
 | **Repair** | Controlled descent after ceiling migration |
 | **Anchor** | Establishes meaningful highs/lows for geometry |
 | **Migration** | Shifts ceiling or floor boundaries |
-
-
-
-Usage
-Use Layer 4.3 to:
-
-Identify which actors are active during a movement
-
-Understand lane scope and spacing requirements
-
-Predict transitions between movement families
-
-Diagnose geometry instability (inversion, purge, vacuum)
-
-Map actor involvement during spikes, memory taps, and cascades
-
-Build case studies for synthetic vs natural actor behavior

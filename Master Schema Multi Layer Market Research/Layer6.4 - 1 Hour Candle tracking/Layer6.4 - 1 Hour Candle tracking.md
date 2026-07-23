@@ -1,44 +1,30 @@
 Layer 6.4 — 1‑Hour Candle Tracking
 Macro Spike Structure, Engine Rhythm, Memory Interaction & Long‑Cycle Behavior
 
-Includes:
+🔹 Purpose
+Layer 6.4 tracks spike events at the 1‑hour resolution, giving you the highest‑level structural view of:
 
-1‑hour spike logs
+Multi‑hour → multi‑day ignition cycles
 
-Spike type classification
+Macro ladder sequences
 
-Actor involvement
+Synthetic burst windows
 
-Book behavior
+Actor‑driven expansions
 
-Structural notes
+Vacuum collapses
 
-Multi‑day ignition cycles
+Ceiling migrations
 
-Macro burst patterns
+Drift‑floor failures
 
-Ceiling migration sequences
+Macro dump → recovery signatures
 
-🔹 Navigation
-Jump to related layers:
+Engine evolution over days
 
-Layer 6 — Price Spikes
+This layer compresses microstructure (6.1), mid‑structure (6.2), and macro‑micro (6.3) into full macro engine cycles.
 
-Layer 6.1 — 1‑Minute Spike Tracker
 
-Layer 6.2 — 5‑Minute Spike Tracker
-
-Layer 6.3 — 15‑Minute Spike Tracker
-
-Layer 6.6 — Synthetic Spikes
-
-Layer 6.7 — Synthetic Shared Timing
-
-Layer 6.8 — Flat Spike Markets
-
-Layer 7.1 — Synthetic Market Tracker
-
-Layer 7.2 — Patterns
 
 | **Column** | **Purpose** |
 | --- | --- |
@@ -159,3 +145,25 @@ Layer 7.1 — Synthetic Market Tracker
 Layer 7.2 — Patterns
 
 Layer 6.4 is the macro spike‑cycle layer that powers multi‑day synthetic engine analysis.
+
+
+🔹 Navigation
+Jump to related layers:
+
+Layer 6 — Price Spikes
+
+Layer 6.1 — 1‑Minute Spike Tracker
+
+Layer 6.2 — 5‑Minute Spike Tracker
+
+Layer 6.3 — 15‑Minute Spike Tracker
+
+Layer 6.6 — Synthetic Spikes
+
+Layer 6.7 — Synthetic Shared Timing
+
+Layer 6.8 — Flat Spike Markets
+
+Layer 7.1 — Synthetic Market Tracker
+
+Layer 7.2 — Patterns

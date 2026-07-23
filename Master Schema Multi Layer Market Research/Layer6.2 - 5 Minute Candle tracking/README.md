@@ -20,8 +20,6 @@ Feed higher‑resolution spike layers (6.3–6.4)
 
 Identify pre‑ignition windows
 
-
-
 | **Column** | **Purpose** |
 | --- | --- |
 | **Market** | Which market the spike occurred in |
@@ -37,6 +35,8 @@ Identify pre‑ignition windows
 | **Dump Candle Signature** | Shape & speed of dumps |
 | **Recovery Signature** | V‑shape / slow / synthetic |
 | **Notes** | Freeform structural notes |
+
+
 
 
 

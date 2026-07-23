@@ -1,17 +1,33 @@
+Layer 6 — Price Spikes
+Spike Classification, Structural Behavior, Synthetic vs Natural Signatures & Engine Impact
 
-Includes:
 
-Spike logs
+Purpose
+Layer 6 documents price spike behavior, the core structural output of every engine.
+Spikes reveal how an engine expresses:
 
-Spike type classification
+synthetic ignition
 
-Memory interaction notes
+natural volatility
 
-Actor & book reaction notes
+actor‑forced displacement
 
-Dump & recovery signatures
+book hollowness
 
-Structural notes
+memory‑band interaction
+
+dump → recovery logic
+
+burst → flick → ladder sequences
+
+suppression windows
+
+timing rhythm
+
+This layer classifies spikes, tracks their structural signatures, and maps how they influence engine movement across all timeframes (1‑minute, 5‑minute, 15‑minute, 1‑hour).
+
+Price spikes are the primary diagnostic signal of synthetic engines and the main stress indicator of natural engines.
+Layer 6 provides the foundation for understanding spike families, synthetic coordination, liquidation behavior, and shared timing across markets.
 
 
 

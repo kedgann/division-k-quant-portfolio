@@ -1,21 +1,45 @@
 Layer 6.5 — Liquidation Events
 Forced Exits, Cascade Behavior, Synthetic Liquidation Triggers & Structural Impact
 
-Includes:
+🔹 Purpose
+Layer 6.5 tracks liquidation events — the most important forced‑move structures inside any engine.
 
-Full liquidation logs
+A liquidation event is not “just a big red candle.”
+It is a macro structural failure triggered by:
 
-Macro cycle windows
+actor pressure
 
-Cascade depth notes
+book hollowness
 
-Actor & book reaction notes
+synthetic timing
 
-Spike interactions
+memory‑band violation
 
-Recovery signatures
+cascade inheritance
 
-Structural notes
+vacuum displacement
+
+This layer captures:
+
+Long/short liquidation bias
+
+Notional size
+
+Cluster density
+
+Event count
+
+Cascade depth
+
+Engine reaction
+
+Actor reaction
+
+Book reaction
+
+Spike interaction
+
+Recovery time
 
 
 

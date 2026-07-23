@@ -1,21 +1,29 @@
 Layer 6.2 — 5‑Minute Candle Tracking
 Short‑Interval Structural Movement, Micro‑Spike Aggregation & Drift Behavior
 
-| **Column** | **Purpose** |
-| --- | --- |
-| **Market** | Which market the spike occurred in |
-| **Date** | When the spike happened |
-| **Time (PDT)** | Exact timestamp |
-| **Spike Size** | Magnitude of the spike |
-| **Spike Type** | Natural / Synthetic / Actor‑Forced / Vacuum |
-| **Memory Interaction** | Whether the spike interacted with a memory band |
-| **Structure Before** | Engine state before the spike |
-| **Structure After** | Engine state after the spike |
-| **Actor Behavior** | Actor involvement |
-| **Book Behavior** | Thick / thin / hollow |
-| **Dump Candle Signature** | Shape & speed of dumps |
-| **Recovery Signature** | V‑shape / slow / synthetic |
-| **Notes** | Freeform structural notes |
+Purpose
+Layer 6.2 tracks 5‑minute candle behavior, providing a mid‑scale structural view of engine movement.
+This timeframe compresses microstructure (Layer 6.1) into readable patterns that reveal:
+
+multi‑minute spike sequences
+
+ladder climbs
+
+burst windows
+
+actor‑forced breakouts
+
+vacuum spikes
+
+synthetic flick clusters
+
+corridor expansions
+
+pre‑ignition behavior
+
+dump → recovery signatures
+
+The 5‑minute window is ideal for identifying mid‑scale synthetic behavior, mapping engine rhythm, and building case studies that bridge microstructure and macrostructure.
 
 
 🔹 Example 5‑Minute Spike Records

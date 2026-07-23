@@ -1,28 +1,24 @@
 Layer 7.1 — Synthetic Market Tracker
 Cross‑Market Synthetic Engine Mapping, Activity Levels, Coordination Signals & Macro Synthetic Health
 
-🔹 Contents
-File:
+🔹 Usage
+Use Layer 7.1 to:
 
-layer7.1-Synthetic Market Tracker.md
+Identify synthetic vs natural engines
 
-Includes:
+Track synthetic activity levels
 
-Synthetic activity logs
+Detect synthetic suppression windows
 
-Market classification
+Map synthetic coordination across markets
 
-Synthetic coordination notes
+Diagnose synthetic timing clusters
 
-Actor cluster notes
+Build macro synthetic case studies
 
-Book behavior notes
+Feed pattern recognition (Layer 7.2)
 
-Suppression windows
-
-Macro synthetic cycles
-
-Structural notes
+Build synthetic engine evolution models
 
 Synthetic Market Classification
 
@@ -66,21 +62,4 @@ Layer 4.2 — Movement‑Family Behavior
 Layer 4.3 — Actor Registry
 
 
-🔹 Usage
-Use Layer 7.1 to:
 
-Identify synthetic vs natural engines
-
-Track synthetic activity levels
-
-Detect synthetic suppression windows
-
-Map synthetic coordination across markets
-
-Diagnose synthetic timing clusters
-
-Build macro synthetic case studies
-
-Feed pattern recognition (Layer 7.2)
-
-Build synthetic engine evolution models

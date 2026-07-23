@@ -2,26 +2,24 @@ Layer 7.2 — Patterns
 Synthetic & Natural Pattern Recognition, Engine Signatures, Structural Cycles & Multi‑Layer Pattern Mapping
 
 
-🔹 Contents
-File:
+🔹 Usage
+Use Layer 7.2 to:
 
-layer7.2-Patterns.md
+Identify synthetic, natural, and hybrid patterns
 
-Includes:
+Track multi‑hour and multi‑day pattern cycles
 
-Pattern definitions
+Diagnose actor‑driven patterns
 
-Pattern classification
+Map synthetic dump → V → ladder sequences
 
-Pattern logs
+Detect synthetic ignition cycles
 
-Structural notes
+Build macro pattern case studies
 
-Multi‑market pattern alignment
+Feed synthetic engine evolution models
 
-Synthetic vs natural pattern comparison
-
-Pattern evolution notes
+Build pattern‑based trading logic
 
 🔹 Pattern Types
 
@@ -89,21 +87,3 @@ Layer 5 — Memory Taps
 Layer 6 — Price Spikes
 
 
-🔹 Usage
-Use Layer 7.2 to:
-
-Identify synthetic, natural, and hybrid patterns
-
-Track multi‑hour and multi‑day pattern cycles
-
-Diagnose actor‑driven patterns
-
-Map synthetic dump → V → ladder sequences
-
-Detect synthetic ignition cycles
-
-Build macro pattern case studies
-
-Feed synthetic engine evolution models
-
-Build pattern‑based trading logic

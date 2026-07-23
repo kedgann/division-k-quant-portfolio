@@ -1,7 +1,25 @@
 Layer 6.7 — Synthetic Shared Timing
 Cross‑Market Timing Windows, Coordinated Synthetic Behavior & Engine Synchronization
 
-🔹 Shared Timing Types
+🔹 Purpose
+Layer 6.7 tracks shared synthetic timing — when multiple markets fire synthetic spikes, bursts, flicks, ladders, or dumps within the same timing window.
+
+This is one of the strongest signals of:
+
+synthetic coordination
+
+actor cluster synchronization
+
+multi‑engine manipulation
+
+shared timing windows
+
+cross‑market synthetic bursts
+
+synthetic ignition cycles
+
+synthetic dump → synthetic V sequences across markets
+
 
 Example Shared Timing Records
 

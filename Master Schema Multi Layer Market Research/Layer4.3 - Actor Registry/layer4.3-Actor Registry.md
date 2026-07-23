@@ -1,3 +1,5 @@
+Layer 4.3 — Actor Registry
+Actor Identification, Behavioral Signatures, Book Interaction & Structural Influence
 
 Purpose
 Layer 4.3 defines the actors that drive engine behavior.

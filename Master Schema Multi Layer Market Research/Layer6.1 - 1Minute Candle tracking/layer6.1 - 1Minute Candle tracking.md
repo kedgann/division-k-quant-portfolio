@@ -1,23 +1,32 @@
 Layer 6.1 — 1‑Minute Candle Tracking
 High‑Resolution Microstructure Tracking, Flick Detection & Short‑Cycle Spike Behavior
 
-This is the layer where you capture engine microstructure — the heartbeat of synthetic and natural engines.
+Purpose
+Layer 6.1 captures 1‑minute microstructure, the highest‑resolution view of engine behavior in your system.
+This timeframe exposes the engine’s immediate reactions, including:
 
-Micro‑bursts
+micro‑bursts
 
-Ladder climbs
+synthetic flicks
 
-Actor‑forced breakouts
+actor‑forced taps
 
-Vacuum spikes
+ladder‑step initiations
 
-Synthetic flicks
+vacuum spikes
 
-Micro‑cascade sequences
+dump → micro‑V recoveries
 
-Pre‑ignition behavior
+coil tightening and release
 
-Dump → recovery signatures
+pre‑ignition signatures
+
+book hollowness and displacement
+
+The 1‑minute window is where engine personality becomes visible.
+It reveals how synthetic and natural engines behave at the smallest actionable scale, forming the foundation for all higher‑resolution spike layers (5‑minute, 15‑minute, 1‑hour).
+
+Layer 6.1 is the microstructure spike‑tracking layer that powers synthetic detection, actor identification, and short‑cycle pattern formation.
 
 🔹 Example 1‑Minute Spike Records
 These examples show recruiters you understand microstructure, synthetic behavior, and actor‑driven spikes.

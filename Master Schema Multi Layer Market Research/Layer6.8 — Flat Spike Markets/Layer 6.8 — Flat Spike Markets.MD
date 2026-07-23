@@ -1,43 +1,24 @@
 Layer 6.8 — Flat Spike Markets
-Dead Engines, Suppressed Synthetic Behavior, Low‑Volatility Windows & Structural Silence
+Engine Silence, Suppression Windows, Drift Corridors & Low‑Volatility Structural Behavior
 
-🔹 Purpose
-Layer 6.8 identifies flat spike markets — engines that show:
+Purpose
+Layer 6.8 identifies flat spike markets — engines showing minimal or no spike activity.
+Flat behavior is structurally meaningful because it reveals:
 
-no synthetic bursts
+synthetic suppression
 
-no synthetic flicks
+actor absence
 
-no ladder climbs
+drift corridor activation
 
-no vacuum spikes
+compression windows
 
-no memory‑reinforcement taps
+pre‑ignition silence
 
-no dump → V sequences
+thick‑book resistance
 
-no ignition cycles
+engine inactivity or intentional muting
 
-no actor timing clusters
-
-Flat spike markets are structurally silent.
-They are either:
-
-naturally dead
-
-temporarily suppressed
-
-intentionally muted
-
-waiting for ignition
-
-stuck in drift corridors
-
-trapped in low‑volatility compression
-
-Recruiters see this and think:
-
-“This person can identify when an engine is not doing anything — which is just as important.”
 
 Example Flat Spike Records
 

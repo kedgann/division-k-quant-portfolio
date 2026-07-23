@@ -1,3 +1,31 @@
+
+Purpose
+Layer 4 defines the engine profile for each market.
+It is the first “deep structure” layer in your system — the point where markets stop being tickers and start being engines.
+
+This layer captures:
+
+Engine type (Synthetic / Natural / Hybrid)
+
+Typical spike interval
+
+Typical spike size
+
+Memory tap frequency & depth
+
+Coil behavior
+
+Actor presence
+
+Book behavior
+
+Dump candle signature
+
+Recovery signature
+
+Freeform engine personality notes
+
+
 Example Engine Profiles
 
 JTO — Synthetic Engine
@@ -66,21 +94,3 @@ Layer 6 — Spike System
 Layer 7 — Synthetic Market Tracker
 
 Layer 8 — Engine Evolution
-
-
-
-Use Layer 4 to:
-
-Identify engine personality before deeper analysis
-
-Compare synthetic vs natural engines
-
-Predict spike rhythm and memory behavior
-
-Understand actor involvement
-
-Map book thickness and dump/recovery signatures
-
-Build case studies for engine evolution
-
-This layer is the foundation for movement families, actor behavior, memory taps, and spike systems.

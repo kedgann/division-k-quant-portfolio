@@ -1,16 +1,25 @@
-Layer 1 defines every market in your research universe, including:
+Layer 1 — Markets
+Market List, Engine Identity, Structural Classification & Tracking Scope
 
-Engine type (synthetic / natural / hybrid)
 
-Stability profile
+Usage
+Use Layer 1 to:
 
-Spike behavior
+define the markets included in your system
 
-Actor presence
+classify each market’s engine type
 
-Liquidity characteristics
+establish structural expectations (synthetic rhythm, natural volatility, hybrid behavior)
 
-Structural notes
+map which markets feed into which downstream layers
+
+track engine evolution over time
+
+maintain a clean, centralized list of all engines you analyze
+
+support daily logs (Layer 2), trades (Layer 3), engine mapping (Layer 4), and spike systems (Layer 6)
+
+Layer 1 is the foundation layer — the structural index that anchors your entire engine‑modeling framework.
 
 | **Market** | **Status** | **Tags** | **Notes** |
 | --- | --- | --- | --- |

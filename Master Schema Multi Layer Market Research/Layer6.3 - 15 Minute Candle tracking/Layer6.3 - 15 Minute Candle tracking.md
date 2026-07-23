@@ -1,43 +1,26 @@
 Layer 6.3 — 15‑Minute Candle Tracking
 Mid‑Interval Engine Behavior, Geometry Testing & Movement‑Family Transitions
 
-Includes:
-
-15‑minute spike logs
-
-Spike type classification
-
-Actor involvement
-
-Book behavior
-
-Structural notes
+🔹 Purpose
+Layer 6.3 tracks spike events at the 15‑minute resolution, giving you a powerful view of:
 
 Multi‑hour ignition cycles
 
-Macro burst patterns
+Macro ladder sequences
 
+Synthetic burst windows
 
-🔹 Navigation
-Jump to related layers:
+Actor‑driven expansions
 
-Layer 6 — Price Spikes
+Vacuum‑driven collapses
 
-Layer 6.1 — 1‑Minute Spike Tracker
+Corridor migrations
 
-Layer 6.2 — 5‑Minute Spike Tracker
+Drift‑floor failures
 
-Layer 6.4 — 1‑Hour Spike Tracker
+Ceiling‑test sequences
 
-Layer 6.6 — Synthetic Spikes
-
-Layer 6.7 — Synthetic Shared Timing
-
-Layer 7.1 — Synthetic Market Tracker
-
-Layer 7.2 — Patterns
-
-
+Dump → recovery behavior
 
 
 Example 15‑Minute Spike Records
@@ -121,4 +104,22 @@ Layer 7.1 — Synthetic Market Tracker
 
 Layer 7.2 — Patterns
 
-Layer 6.3 is the macro‑micro bridge that powers multi‑hour engine analysis.
+
+🔹 Navigation
+Jump to related layers:
+
+Layer 6 — Price Spikes
+
+Layer 6.1 — 1‑Minute Spike Tracker
+
+Layer 6.2 — 5‑Minute Spike Tracker
+
+Layer 6.4 — 1‑Hour Spike Tracker
+
+Layer 6.6 — Synthetic Spikes
+
+Layer 6.7 — Synthetic Shared Timing
+
+Layer 7.1 — Synthetic Market Tracker
+
+Layer 7.2 — Patterns

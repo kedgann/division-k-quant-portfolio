@@ -1,40 +1,28 @@
 Layer 6.7 — Synthetic Shared Timing
 Cross‑Market Timing Windows, Coordinated Synthetic Behavior & Engine Synchronization
 
-Includes:
+🔹 Purpose
+Layer 6.6 is the synthetic spike detection layer — the part of your system that identifies:
 
-Synthetic spike logs
+synthetic bursts
 
-Spike type classification
+synthetic flicks
 
-Actor timing clusters
+synthetic ladders
 
-Book behavior notes
+synthetic timing clusters
 
-Memory reinforcement notes
+synthetic memory reinforcement
 
-Ladder sequences
+synthetic dump → synthetic V sequences
 
-Synthetic dump → synthetic V signatures
+synthetic ceiling migrations
 
-Structural notes
+synthetic coil resets
 
-🔹 Navigation
-Jump to related layers:
+synthetic pre‑ignition windows
 
-Layer 6 — Price Spikes
-
-Layer 6.1–6.4 — Candle Spike Trackers
-
-Layer 6.5 — Liquidation Events
-
-Layer 6.7 — Synthetic Shared Timing
-
-Layer 4.3 — Actor Registry
-
-Layer 7.2 — Patterns
-
-
+This layer is the core of your synthetic‑engine detection framework.
 
 
 🔹 Example Synthetic Spike Records
@@ -128,3 +116,19 @@ Layer 6.7 — Synthetic Shared Timing
 Layer 7.2 — Patterns
 
 Layer 6.6 is the synthetic‑behavior logic layer that powers timing analysis and pattern formation.
+
+
+🔹 Navigation
+Jump to related layers:
+
+Layer 6 — Price Spikes
+
+Layer 6.1–6.4 — Candle Spike Trackers
+
+Layer 6.5 — Liquidation Events
+
+Layer 6.7 — Synthetic Shared Timing
+
+Layer 4.3 — Actor Registry
+
+Layer 7.2 — Patterns

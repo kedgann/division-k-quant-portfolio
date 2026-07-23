@@ -2,28 +2,6 @@ Layer 6.4 — 1‑Hour Candle Tracking
 Macro Spike Structure, Engine Rhythm, Memory Interaction & Long‑Cycle Behavior
 
 
-🔹 Purpose
-Layer 6.4 tracks spike events at the 1‑hour resolution, giving you the highest‑level structural view of:
-
-Multi‑hour → multi‑day ignition cycles
-
-Macro ladder sequences
-
-Synthetic burst windows
-
-Actor‑driven expansions
-
-Vacuum collapses
-
-Ceiling migrations
-
-Drift‑floor failures
-
-Macro dump → recovery signatures
-
-Engine evolution over days
-
-This layer compresses microstructure (6.1), mid‑structure (6.2), and macro‑micro (6.3) into full macro engine cycles.
 
 | **Column** | **Purpose** |
 | --- | --- |

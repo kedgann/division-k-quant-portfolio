@@ -1,31 +1,21 @@
 Layer 4 — Engine Map
 Engine Identity, Spike Behavior, Memory Interaction & Structural Personality
-Purpose
-Layer 4 defines the engine profile for each market.
-It is the first “deep structure” layer in your system — the point where markets stop being tickers and start being engines.
 
-This layer captures:
+Use Layer 4 to:
 
-Engine type (Synthetic / Natural / Hybrid)
+Identify engine personality before deeper analysis
 
-Typical spike interval
+Compare synthetic vs natural engines
 
-Typical spike size
+Predict spike rhythm and memory behavior
 
-Memory tap frequency & depth
+Understand actor involvement
 
-Coil behavior
+Map book thickness and dump/recovery signatures
 
-Actor presence
+Build case studies for engine evolution
 
-Book behavior
-
-Dump candle signature
-
-Recovery signature
-
-Freeform engine personality notes
-
+This layer is the foundation for movement families, actor behavior, memory taps, and spike systems.
 
 
 

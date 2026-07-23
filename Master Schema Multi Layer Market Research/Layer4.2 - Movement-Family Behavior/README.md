@@ -1,23 +1,25 @@
 Layer 4.2 — Movement‑Family Behavior
 Engine Movement Families, Structural Phases, Geometry Tests & Transition Logic
 
-Purpose
-Layer 4.2 defines movement families — the internal “states” an engine cycles through as it moves, tests geometry, breaks structure, or transitions into new behavior.
 
-Movement families describe:
+Usage
+Use Layer 4.2 to:
 
-how the engine approaches geometry
+identify which movement family is active
 
-how it tests structure
+predict geometry breaks
 
-how it resolves movement
+track ceiling migration
 
-how it transitions into new families
+understand actor requirements
 
-how actors and book conditions influence movement
+detect inversion turbulence
 
-how ceilings, floors, and drift lanes evolve
+map lane transitions
 
+support engine evolution modeling
+
+build movement‑family case studies
 
 
 Movement Family Components

@@ -1,21 +1,25 @@
-🔹 Purpose
-Layer 2 captures daily structural behavior for each market, compressing the entire trading day into a readable engine snapshot.
+Usage
+Use Layer 2 to:
 
-It tracks:
+track daily engine behavior at a compressed, readable scale
 
-End‑day high & low
+identify high‑pressure windows
 
-Peak volume time
+detect synthetic vs natural spike days
 
-Volume sequences (compressed)
+map peak volume timing and volume‑sequence structure
 
-Natural vs synthetic spike counts
+observe actor pressure and book displacement
 
-Largest spike sizes
+monitor engine stability across days
 
-Actor pressure
+correlate daily behavior with trade context (Layer 3)
 
-Engine stability
+feed engine personality mapping (Layer 4)
+
+support spike system analysis (Layer 6)
+
+build synthetic market case studies (Layer 7.1)
 
 | **Date** | **Market** | **End‑Day High** | **End‑Day Low** | **Peak Volume Time** | **Volume by Time** | **Price Spike Count** | **Synthetic Spike Count** | **Largest Spike Size** | **Largest Synthetic Spike Size** | **Actor Pressure Notes** | **Engine Stability Notes** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

@@ -1,24 +1,24 @@
 Layer 6.8 — Flat Spike Markets
 Dead Engines, Suppressed Synthetic Behavior, Low‑Volatility Windows & Structural Silence
 
-🔹 Contents
-layer6.8-Flat Spike Markets.md
+Usage
+Use Layer 6.8 to:
 
-Includes:
+identify markets with silent engines
 
-Flat‑spike logs
+detect synthetic suppression windows
 
-Engine silence classification
+track drift corridors
 
-Actor absence notes
+diagnose actor absence
 
-Book behavior notes
+understand book thickness preventing spikes
 
-Drift corridor notes
+build flat‑market case studies
 
-Suppression windows
+feed synthetic market tracker (Layer 7.1)
 
-Structural notes
+support pattern recognition (Layer 7.2)
 
 
 🔹 Flat Spike Types
