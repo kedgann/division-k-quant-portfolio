@@ -1,53 +1,40 @@
+Layer 4.2 — Movement‑Family Behavior
+Engine Movement Families, Structural Phases, Geometry Tests & Transition Logic
+
 Purpose
 Layer 4.2 defines movement families — the internal “states” an engine cycles through as it moves, tests geometry, breaks structure, or transitions into new behavior.
 
-This layer captures:
+Movement families describe:
 
-Active family lifespan
+how the engine approaches geometry
 
-Branch structure (continuation vs failure)
+how it tests structure
 
-Sequence phases (Approach → Test → Resolution)
+how it resolves movement
 
-Timing of each phase
+how it transitions into new families
 
-Geometry‑break conditions
+how actors and book conditions influence movement
 
-Family‑switch triggers
+how ceilings, floors, and drift lanes evolve
 
-Anchor relevance rules
+This layer is the engine state machine.
 
-Inversion turbulence markers
+Movement Family Components
 
-Ceiling migration markers
-
-Decay repair markers
-
-Drift floor formation & failure conditions
-
-Purge‑style sweep logic
-
-Actor & book requirements for each family
-
-This is the layer where your system stops being “market analysis”
-and becomes engine modeling.
-
-
-Usage
-Use Layer 4.2 to:
-
-Identify which movement family is active
-
-Predict when geometry will break
-
-Track ceiling migration and drift floor formation
-
-Understand actor requirements for each family
-
-Detect inversion turbulence
-
-Map lane transitions
-
-Build case studies for engine evolution
-
-This layer is the engine‑state machine of your system.
+| Component | Description |
+| --- | --- |
+| **Family Lifespan** | How long the engine stays in a movement family |
+| **Branch Structure** | Continuation vs failure paths |
+| **Sequence Phases** | Approach → Test → Resolution |
+| **Timing Windows** | Duration of each phase |
+| **Geometry‑Break Conditions** | What causes structure to fail |
+| **Family‑Switch Triggers** | What causes transitions |
+| **Anchor Relevance** | When anchors matter or decay |
+| **Inversion Turbulence** | Turbulence during inversion attempts |
+| **Ceiling Migration** | How ceilings shift during movement |
+| **Decay Repair** | How the engine repairs broken geometry |
+| **Drift Floor Formation** | How drift floors form or fail |
+| **Purge Sweep Logic** | How purge‑style sweeps occur |
+| **Actor Requirements** | Actor presence needed for each family |
+| **Book Requirements** | Book thickness/hollowness needed |
