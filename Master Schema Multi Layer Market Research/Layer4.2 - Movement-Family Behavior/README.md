@@ -18,7 +18,7 @@ how actors and book conditions influence movement
 
 how ceilings, floors, and drift lanes evolve
 
-This layer is the engine state machine.
+
 
 Movement Family Components
 

@@ -1,3 +1,6 @@
+Layer 6.5 — Liquidation Events
+Forced Exits, Cascade Behavior, Synthetic Liquidation Triggers & Structural Impact
+
 Includes:
 
 Full liquidation logs
@@ -14,38 +17,6 @@ Recovery signatures
 
 Structural notes
 
-
-🔹 Navigation
-Jump to related layers:
-
-Layer 6 — Price Spikes
-
-Layer 6.1–6.4 — Candle Spike Trackers
-
-Layer 6.6 — Synthetic Spikes
-
-Layer 6.7 — Synthetic Shared Timing
-
-Layer 4.2 — Movement‑Family Behavior
-
-Layer 7.2 — Patterns
-
-
-| **Column** | **Purpose** |
-| --- | --- |
-| **Market** | Which engine the liquidation occurred in |
-| **Long/Short Liquidation** | Bias of the forced move |
-| **Liquidation Size** | Notional size of the liquidation |
-| **Cluster Density** | How tightly liquidation events are grouped |
-| **Event Count** | Number of liquidation events in the cycle |
-| **Cascade Depth** | How deep the forced move runs |
-| **Engine Reaction** | How the engine responds |
-| **Actor Reaction** | Actor involvement |
-| **Book Reaction** | Thick / thin / hollow |
-| **Spike Interaction** | Synthetic or natural spike involvement |
-| **Recovery Time** | Time required for engine to stabilize |
-| **Follow‑Through Strength** | Weak / medium / strong |
-| **Notes** | Freeform structural notes |
 
 
 Example Liquidation Event Records
@@ -122,3 +93,19 @@ Layer 7.2 — Patterns
 Layer 4.2 — Movement‑Family Behavior
 
 Layer 6.5 is the forced‑move logic layer that powers macro‑cycle analysis and pattern formation.
+
+
+🔹 Navigation
+Jump to related layers:
+
+Layer 6 — Price Spikes
+
+Layer 6.1–6.4 — Candle Spike Trackers
+
+Layer 6.6 — Synthetic Spikes
+
+Layer 6.7 — Synthetic Shared Timing
+
+Layer 4.2 — Movement‑Family Behavior
+
+Layer 7.2 — Patterns

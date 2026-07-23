@@ -1,32 +1,23 @@
-Includes:
 
-Actor type definitions
+Purpose
+Layer 4.3 defines the actors that drive engine behavior.
 
-Actor behavior table
+Actors are the “micro‑agents” inside your synthetic or natural engines.
+They create bursts, cascades, drift floors, vacuum spikes, ceiling tests, compression phases, purges, repairs, anchors, and migrations.
 
-Lane scope & spacing rules
+This layer documents:
+
+Actor types
+
+What each actor does
+
+Where each actor operates (lane scope)
+
+Required spacing
 
 Conditions for activation
 
-Family mapping
-
-Hyperlinked registry structure
-
-
-Navigation
-Jump to related layers:
-
-Layer 4 — Engine Map
-
-Layer 4.2 — Movement‑Family Behavior
-
-Layer 5 — Memory Taps
-
-Layer 6 — Spike System
-
-Layer 7.2 — Patterns
-
-
+Which movement families each actor belongs to
 
 
 🔹 Actor Registry Table
@@ -68,3 +59,16 @@ Layer 6.7 — Synthetic Shared Timing
 Layer 7.2 — Patterns
 
 Layer 4.3 is the actor‑logic layer that powers all deeper structural analysis.
+
+Navigation
+Jump to related layers:
+
+Layer 4 — Engine Map
+
+Layer 4.2 — Movement‑Family Behavior
+
+Layer 5 — Memory Taps
+
+Layer 6 — Spike System
+
+Layer 7.2 — Patterns

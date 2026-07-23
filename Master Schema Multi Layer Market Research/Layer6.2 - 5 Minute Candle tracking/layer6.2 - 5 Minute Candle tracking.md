@@ -1,37 +1,5 @@
-
-includes:
-
-5‑minute spike logs
-
-Spike type classification
-
-Actor involvement
-
-Book behavior
-
-Structural notes
-
-Ladder sequences
-
-Mid‑scale burst patterns
-
-
-🔹 Navigation
-Jump to related layers:
-
-Layer 6 — Price Spikes
-
-Layer 6.1 — 1‑Minute Spike Tracker
-
-Layer 6.3 — 15‑Minute Spike Tracker
-
-Layer 6.4 — 1‑Hour Spike Tracker
-
-Layer 6.6 — Synthetic Spikes
-
-Layer 6.7 — Synthetic Shared Timing
-
-Layer 7.2 — Patterns
+Layer 6.2 — 5‑Minute Candle Tracking
+Short‑Interval Structural Movement, Micro‑Spike Aggregation & Drift Behavior
 
 | **Column** | **Purpose** |
 | --- | --- |
@@ -142,3 +110,20 @@ Layer 6.7 — Synthetic Shared Timing
 Layer 7.2 — Patterns
 
 Layer 6.2 is the mid‑scale spike‑tracking layer that bridges microstructure and macrostructure.
+
+🔹 Navigation
+Jump to related layers:
+
+Layer 6 — Price Spikes
+
+Layer 6.1 — 1‑Minute Spike Tracker
+
+Layer 6.3 — 15‑Minute Spike Tracker
+
+Layer 6.4 — 1‑Hour Spike Tracker
+
+Layer 6.6 — Synthetic Spikes
+
+Layer 6.7 — Synthetic Shared Timing
+
+Layer 7.2 — Patterns

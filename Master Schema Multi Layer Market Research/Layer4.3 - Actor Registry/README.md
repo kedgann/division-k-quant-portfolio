@@ -1,25 +1,19 @@
 Layer 4.3 — Actor Registry
 Actor Identification, Behavioral Signatures, Book Interaction & Structural Influence
 
-Purpose
-Layer 4.3 defines the actors that drive engine behavior.
+Includes:
 
-Actors are the “micro‑agents” inside your synthetic or natural engines.
-They create bursts, cascades, drift floors, vacuum spikes, ceiling tests, compression phases, purges, repairs, anchors, and migrations.
+Actor type definitions
 
-This layer documents:
+Actor behavior table
 
-Actor types
-
-What each actor does
-
-Where each actor operates (lane scope)
-
-Required spacing
+Lane scope & spacing rules
 
 Conditions for activation
 
-Which movement families each actor belongs to
+Family mapping
+
+Hyperlinked registry structure
 
 
 🔹 Actor Types (High‑Level Definitions)

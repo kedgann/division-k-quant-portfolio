@@ -1,28 +1,39 @@
-🔹 Purpose
-Layer 5 tracks memory band interactions — one of the most important structural behaviors inside synthetic and natural engines.
+Layer 5 — Memory Taps
+Memory Band Interaction, Tap Depth, Engine Reaction & Structural Behavior
 
-A memory tap occurs when price returns to a previously meaningful level (memory band) and the engine reacts.
-This layer captures:
+Usage
+Use Layer 5 to:
 
-Tap frequency
+Identify memory band reinforcement
 
-Tap depth
+Track synthetic vs natural memory behavior
 
-Tap type (natural / synthetic / actor‑forced / vacuum)
+Understand actor involvement during taps
 
-Cell behavior
+Predict spike behavior after memory interactions
 
-Actor processing
+Diagnose engine stability
 
-Book behavior
+Build case studies for synthetic control
 
-Dump candle signature
+Map dump → recovery signatures
 
-Recovery signature
+This layer is the memory‑logic engine of your system.
 
-Structural notes
-
-This layer shows recruiters you understand engine reinforcement, memory behavior, and synthetic control — not just price.
+| **Column** | **Purpose** |
+| --- | --- |
+| **Market** | Which engine this memory tap belongs to |
+| **Date** | When the tap occurred |
+| **Typical Spike Interval** | Spike rhythm around the tap |
+| **Typical Spike Size** | Spike magnitude around the tap |
+| **Memory Tap Frequency** | Low / Medium / High |
+| **Memory Tap Depth** | Shallow / Medium / Deep |
+| **Cell Behavior** | How the engine behaves inside the memory cell |
+| **Actor Processing** | Actor involvement during the tap |
+| **Book Behavior** | Thick / thin / hollow |
+| **Dump Candle Signature** | Shape & speed of dumps |
+| **Recovery Signature** | V‑shape / slow / synthetic |
+| **Notes** | Freeform structural notes |
 
 
 
@@ -64,4 +75,3 @@ Build case studies for synthetic control
 
 Map dump → recovery signatures
 
-This layer is the memory‑logic engine of your system.

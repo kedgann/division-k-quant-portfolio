@@ -26,7 +26,7 @@ Recovery signature
 
 Freeform engine personality notes
 
-Layer 4 is the fingerprint of each market’s engine.
+
 
 
 | **Column** | **Purpose** |

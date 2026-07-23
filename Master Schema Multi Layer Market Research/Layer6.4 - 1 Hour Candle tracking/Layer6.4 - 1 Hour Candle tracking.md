@@ -1,3 +1,6 @@
+Layer 6.4 — 1‑Hour Candle Tracking
+Macro Spike Structure, Engine Rhythm, Memory Interaction & Long‑Cycle Behavior
+
 Includes:
 
 1‑hour spike logs

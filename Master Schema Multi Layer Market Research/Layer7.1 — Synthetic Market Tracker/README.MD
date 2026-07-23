@@ -1,35 +1,5 @@
 Layer 7.1 — Synthetic Market Tracker
 Cross‑Market Synthetic Engine Mapping, Activity Levels, Coordination Signals & Macro Synthetic Health
-🔹 Purpose
-Layer 7.1 is your synthetic market dashboard — the layer that tracks synthetic activity across all markets and identifies:
-
-which engines are synthetic
-
-which engines are natural
-
-which engines are hybrid
-
-synthetic activity level (low → extreme)
-
-synthetic timing clusters
-
-synthetic coordination across markets
-
-synthetic suppression windows
-
-synthetic ignition cycles
-
-synthetic dump → synthetic V sequences
-
-synthetic memory reinforcement
-
-synthetic ladder behavior
-
-synthetic burst frequency
-
-This layer is the macro synthetic health monitor of your entire system.
-
-
 
 🔹 Contents
 File:
@@ -53,6 +23,30 @@ Suppression windows
 Macro synthetic cycles
 
 Structural notes
+
+Synthetic Market Classification
+
+| **Type** | **Definition** |
+| --- | --- |
+| **Synthetic** | Engine dominated by artificial bursts, flicks, ladders, dumps, V‑recoveries |
+| **Natural** | Engine dominated by organic movement, natural spikes, slow recoveries |
+| **Hybrid** | Engine shows both synthetic and natural behavior |
+
+
+| **Column** | **Purpose** |
+| --- | --- |
+| **Market** | Which market is being tracked |
+| **Engine Type** | Synthetic / Natural / Hybrid |
+| **Synthetic Activity Level** | None / Low / Medium / High / Extreme |
+| **Synthetic Spike Count** | Number of synthetic spikes in the window |
+| **Synthetic Burst Count** | Number of synthetic bursts |
+| **Synthetic Ladder Count** | Number of ladder climbs |
+| **Synthetic Flick Count** | Number of flicks |
+| **Synthetic Dump → V Count** | Number of dump → V sequences |
+| **Synthetic Memory Reinforcement** | Yes / No |
+| **Shared Timing Participation** | Yes / No |
+| **Suppression Windows** | Yes / No |
+| **Notes** | Freeform structural notes |
 
 🔹 Navigation
 Jump to related layers:

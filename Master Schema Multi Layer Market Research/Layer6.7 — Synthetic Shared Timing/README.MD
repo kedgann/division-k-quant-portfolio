@@ -1,4 +1,6 @@
-Cross‑Market Synthetic Coordination, Timing Clusters, Multi‑Engine Bursts & Synchronized Manipulation Windows
+Layer 6.7 — Synthetic Shared Timing
+Cross‑Market Timing Windows, Coordinated Synthetic Behavior & Engine Synchronization
+
 🔹 Purpose
 Layer 6.7 tracks shared synthetic timing — when multiple markets fire synthetic spikes, bursts, flicks, ladders, or dumps within the same timing window.
 
@@ -18,6 +20,30 @@ synthetic ignition cycles
 
 synthetic dump → synthetic V sequences across markets
 
+| **Timing Type** | **Definition** |
+| --- | --- |
+| **Synchronized Burst Window** | Multiple markets fire synthetic bursts within the same minute |
+| **Shared Flick Cluster** | Multiple markets flick within a tight timing window |
+| **Cross‑Market Ladder Climb** | Ladder bots climb shelves across markets simultaneously |
+| **Synthetic Dump Window** | Multiple markets dump at the same time |
+| **Synthetic V‑Recovery Window** | Multiple markets recover in synchronized V‑shape |
+| **Ignition Cycle Alignment** | Multi‑hour ignition cycles begin across markets together |
+| **Memory Reinforcement Sync** | Synthetic taps occur across markets at the same time |
+
+
+
+| **Column** | **Purpose** |
+| --- | --- |
+| **Timestamp (PDT)** | Exact timing window |
+| **Markets Involved** | Markets that fired synthetic events |
+| **Synthetic Type** | Burst / Flick / Ladder / Dump / V / Reinforcement |
+| **Spike Sizes** | Magnitude per market |
+| **Actor Timing** | Actor cluster involvement |
+| **Book Behavior** | Thick / thin / hollow per market |
+| **Memory Interaction** | Reinforcement / violation |
+| **Structure Before** | Engine state before the timing window |
+| **Structure After** | Engine state after the timing window |
+| **Notes** | Freeform structural notes |
 
 
 🔹 Contents
@@ -76,4 +102,4 @@ Feed synthetic market tracker (Layer 7.1)
 
 Build synthetic pattern recognition (Layer 7.2)
 
-This layer is the synthetic timing engine of your system.
+

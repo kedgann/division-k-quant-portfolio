@@ -1,29 +1,43 @@
-🔹 Flat Spike Types
+Layer 6.8 — Flat Spike Markets
+Dead Engines, Suppressed Synthetic Behavior, Low‑Volatility Windows & Structural Silence
 
-| **Flat Type** | **Definition** |
-| --- | --- |
-| **True Flat** | No spikes of any kind |
-| **Synthetic Suppressed** | Synthetic engine intentionally muted |
-| **Natural Drift** | Natural engine stuck in drift corridor |
-| **Compression Flat** | Tight compression preventing spikes |
-| **Actor‑Absent Flat** | No actor presence → no spikes |
-| **Book‑Thick Flat** | Thick book prevents spike formation |
-| **Pre‑Ignition Flat** | Engine silent before ignition cycle |
+🔹 Purpose
+Layer 6.8 identifies flat spike markets — engines that show:
 
-| **Column** | **Purpose** |
-| --- | --- |
-| **Market** | Which market is flat |
-| **Date** | When the flat window occurred |
-| **Flat Type** | True / Suppressed / Drift / Compression / Actor‑Absent / Thick‑Book / Pre‑Ignition |
-| **Spike Count** | Number of spikes in the window |
-| **Synthetic Spike Count** | Number of synthetic spikes |
-| **Actor Presence** | Low / none |
-| **Book Behavior** | Thick / medium / thin |
-| **Drift Corridor** | Whether drift corridor is active |
-| **Compression Level** | Tight / medium / loose |
-| **Memory Interaction** | None / shallow taps |
-| **Notes** | Freeform structural notes |
+no synthetic bursts
 
+no synthetic flicks
+
+no ladder climbs
+
+no vacuum spikes
+
+no memory‑reinforcement taps
+
+no dump → V sequences
+
+no ignition cycles
+
+no actor timing clusters
+
+Flat spike markets are structurally silent.
+They are either:
+
+naturally dead
+
+temporarily suppressed
+
+intentionally muted
+
+waiting for ignition
+
+stuck in drift corridors
+
+trapped in low‑volatility compression
+
+Recruiters see this and think:
+
+“This person can identify when an engine is not doing anything — which is just as important.”
 
 Example Flat Spike Records
 
@@ -89,3 +103,40 @@ XPL — Natural Drift Flat
 | Compression Level | Loose |
 | Memory Interaction | None |
 | Notes | Natural drift corridor; no synthetic involvement |
+
+
+🔹 Schema Connections
+Upstream:
+
+Layer 6 — Price Spikes
+
+Layer 6.6 — Synthetic Spikes
+
+Layer 4.3 — Actor Registry
+
+Downstream:
+
+Layer 7.1 — Synthetic Market Tracker
+
+Layer 7.2 — Patterns
+
+Layer 6.8 is the engine silence layer that powers synthetic suppression detection and drift‑corridor analysis.
+
+🔹 Usage
+Use Layer 6.8 to:
+
+Identify markets with dead engines
+
+Detect synthetic suppression windows
+
+Track drift corridors
+
+Diagnose actor absence
+
+Understand book thickness preventing spikes
+
+Build flat‑market case studies
+
+Feed synthetic market tracker (Layer 7.1)
+
+Build pattern recognition (Layer 7.2)

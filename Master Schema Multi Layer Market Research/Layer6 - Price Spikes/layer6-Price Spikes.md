@@ -14,47 +14,6 @@ Dump & recovery signatures
 Structural notes
 
 
-Navigation
-Jump to related layers:
-
-Layer 4 — Engine Map
-
-Layer 4.3 — Actor Registry
-
-Layer 5 — Memory Taps
-
-Layer 6.1 — 1‑Minute Spike Tracker
-
-Layer 6.2 — 5‑Minute Spike Tracker
-
-Layer 6.3 — 15‑Minute Spike Tracker
-
-Layer 6.4 — 1‑Hour Spike Tracker
-
-Layer 6.6 — Synthetic Spikes
-
-Layer 6.7 — Synthetic Shared Timing
-
-Layer 6.8 — Flat Spike Markets
-
-
-| **Column** | **Purpose** |
-| --- | --- |
-| **Market** | Which engine the spike occurred in |
-| **Date** | When the spike happened |
-| **Time** | Exact timestamp |
-| **Spike Size** | Magnitude of the spike |
-| **Spike Type** | Natural / Synthetic / Actor‑Forced / Vacuum |
-| **Memory Interaction** | Whether the spike interacted with a memory band |
-| **Structure Before** | Engine state before the spike |
-| **Structure After** | Engine state after the spike |
-| **Actor Behavior** | Actor involvement |
-| **Book Behavior** | Thick / thin / hollow |
-| **Dump Candle Signature** | Shape & speed of dumps |
-| **Recovery Signature** | V‑shape / slow / synthetic |
-| **Notes** | Freeform structural notes |
-
-
 
 Example Spike Records
 
@@ -140,3 +99,26 @@ Layer 6.8 — Flat Spike Markets
 Layer 7.2 — Patterns
 
 Layer 6 is the core spike‑logic layer that powers all deeper structural analysis.
+
+Navigation
+Jump to related layers:
+
+Layer 4 — Engine Map
+
+Layer 4.3 — Actor Registry
+
+Layer 5 — Memory Taps
+
+Layer 6.1 — 1‑Minute Spike Tracker
+
+Layer 6.2 — 5‑Minute Spike Tracker
+
+Layer 6.3 — 15‑Minute Spike Tracker
+
+Layer 6.4 — 1‑Hour Spike Tracker
+
+Layer 6.6 — Synthetic Spikes
+
+Layer 6.7 — Synthetic Shared Timing
+
+Layer 6.8 — Flat Spike Markets

@@ -1,36 +1,5 @@
 Layer 7.2 — Patterns
 Synthetic & Natural Pattern Recognition, Engine Signatures, Structural Cycles & Multi‑Layer Pattern Mapping
-🔹 Purpose
-Layer 7.2 is the pattern‑recognition layer — the part of your system that identifies, classifies, and tracks engine patterns across all markets and all timeframes.
-
-This layer captures:
-
-synthetic patterns
-
-natural patterns
-
-hybrid patterns
-
-ignition cycles
-
-drift‑floor failures
-
-ceiling migrations
-
-burst → coil → burst loops
-
-dump → V → ladder sequences
-
-actor‑driven patterns
-
-book‑driven patterns
-
-memory‑driven patterns
-
-multi‑market shared patterns
-
-This is the layer where your system becomes a full engine‑pattern model, not just a spike tracker.
-
 
 
 🔹 Contents
@@ -53,6 +22,54 @@ Multi‑market pattern alignment
 Synthetic vs natural pattern comparison
 
 Pattern evolution notes
+
+🔹 Pattern Types
+
+| Pattern | Definition |
+| --- | --- |
+| **Burst → Coil → Burst** | Synthetic burst followed by coil reset and another burst |
+| **Dump → V → Ladder** | Synthetic dump → synthetic V → ladder climb |
+| **Synthetic Flick Loop** | Repeated flicks in tight timing windows |
+| **Synthetic Memory Reinforcement Cycle** | Synthetic taps reinforcing memory bands |
+| **Synthetic Ignition Cycle** | Multi‑hour synthetic ignition sequence |
+| **Synthetic Ceiling Migration** | Synthetic movement of ceiling boundary |
+
+
+Natural Patterns
+
+| Pattern | Definition |
+| --- | --- |
+| **Natural Drift Corridor** | Slow, organic drift with low actor presence |
+| **Natural Spike → Slow Recovery** | Natural spike followed by slow recovery |
+| **Natural Compression → Expansion** | Natural compression leading to organic expansion |
+| **Natural Coil → Natural Burst** | Natural coil followed by natural burst |
+
+
+Hybrid Patterns
+
+| Pattern | Definition |
+| --- | --- |
+| **Synthetic Burst → Natural Drift** | Synthetic burst followed by natural drift |
+| **Natural Spike → Synthetic V** | Natural spike followed by synthetic recovery |
+| **Synthetic Ladder → Natural Compression** | Synthetic ladder followed by natural compression |
+| **Natural Drift → Synthetic Ignition** | Natural drift corridor leading into synthetic ignition |
+
+
+| **Column** | **Purpose** |
+| --- | --- |
+| **Market** | Which market the pattern occurred in |
+| **Pattern Type** | Synthetic / Natural / Hybrid |
+| **Pattern Name** | Name of the pattern |
+| **Start Time (PDT)** | When the pattern began |
+| **End Time (PDT)** | When the pattern ended |
+| **Duration** | Length of the pattern |
+| **Actor Behavior** | Actor involvement |
+| **Book Behavior** | Thick / thin / hollow |
+| **Memory Interaction** | Reinforcement / violation / none |
+| **Spike Interaction** | Burst / flick / ladder / dump / V |
+| **Structure Before** | Engine state before the pattern |
+| **Structure After** | Engine state after the pattern |
+| **Notes** | Freeform structural notes |
 
 🔹 Navigation
 Jump to related layers:

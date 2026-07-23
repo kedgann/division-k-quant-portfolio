@@ -1,33 +1,33 @@
 
-Includes:
+Layer 5 — Memory Taps
+Memory Band Interaction, Tap Depth, Engine Reaction & Structural Behavior
 
-Full memory tap logs
+🔹 Purpose
+Layer 5 tracks memory band interactions — one of the most important structural behaviors inside synthetic and natural engines.
 
-Tap frequency & depth
+A memory tap occurs when price returns to a previously meaningful level (memory band) and the engine reacts.
+This layer captures:
 
-Tap type classification
+Tap frequency
 
-Actor & book reaction notes
+Tap depth
 
-Dump & recovery signatures
+Tap type (natural / synthetic / actor‑forced / vacuum)
+
+Cell behavior
+
+Actor processing
+
+Book behavior
+
+Dump candle signature
+
+Recovery signature
 
 Structural notes
 
+This layer shows recruiters you understand engine reinforcement, memory behavior, and synthetic control — not just price.
 
-| **Column** | **Purpose** |
-| --- | --- |
-| **Market** | Which engine this memory tap belongs to |
-| **Date** | When the tap occurred |
-| **Typical Spike Interval** | Spike rhythm around the tap |
-| **Typical Spike Size** | Spike magnitude around the tap |
-| **Memory Tap Frequency** | Low / Medium / High |
-| **Memory Tap Depth** | Shallow / Medium / Deep |
-| **Cell Behavior** | How the engine behaves inside the memory cell |
-| **Actor Processing** | Actor involvement during the tap |
-| **Book Behavior** | Thick / thin / hollow |
-| **Dump Candle Signature** | Shape & speed of dumps |
-| **Recovery Signature** | V‑shape / slow / synthetic |
-| **Notes** | Freeform structural notes |
 
 
 🔹 Example Memory Tap Records
@@ -82,3 +82,26 @@ XPL — Natural Memory Tap
 | Dump Candle Signature | Natural dumps |
 | Recovery Signature | Slow recovery |
 | Notes | Natural memory tap, no synthetic reinforcement |
+
+
+Schema Connections
+Upstream:
+
+Layer 4 — Engine Map
+
+Layer 4.3 — Actor Registry
+
+Downstream:
+
+Layer 6 — Price Spikes
+
+Layer 6.6 — Synthetic Spikes
+
+Layer 6.7 — Synthetic Shared Timing
+
+Layer 7.2 — Patterns
+
+Layer 5 is the memory‑behavior layer that powers spike analysis, synthetic detection, and pattern formation.
+
+
+
