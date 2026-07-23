@@ -26,22 +26,6 @@ Layer 6 — Spike System
 
 Layer 7.2 — Patterns
 
-🔹 Actor Types (High‑Level Definitions)
-
-| **Actor Type** | **Purpose** |
-| --- | --- |
-| **Burst** | Sudden expansion bursts |
-| **Cascade** | Drives high‑velocity multi‑lane cascades |
-| **Drift** | Maintains drift corridors and forms drift floors |
-| **Vacuum** | Creates hollow‑book displacement spikes |
-| **Ceiling‑Test** | Tests top boundary for rejection or migration |
-| **Compression** | Tightens spacing for drift → expansion transitions |
-| **Purge** | Clears stacked lows/highs to reset geometry |
-| **Weaver** | Maintains corridor spacing and structural continuity |
-| **Inversion** | Creates chaotic spacing during geometry instability |
-| **Repair** | Controlled descent after ceiling migration |
-| **Anchor** | Establishes meaningful highs/lows for geometry |
-| **Migration** | Shifts ceiling or floor boundaries |
 
 
 
